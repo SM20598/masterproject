@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -flto -shared  -o ../../lib.linux-x86_64-3.10/motionlib.cpython-310-x86_64-linux-gnu.so CMakeFiles/motionlib.dir/src/binder.cpp.o  libfuncs.a 

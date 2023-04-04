@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="motionlib"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\pybind11\;CMake Files\pybind11\tools\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/lastsean/CLionProjects/Masterproject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/lastsean/CLionProjects/Masterproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/lastsean/CLionProjects/Masterproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/lastsean/CLionProjects/Masterproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/lastsean/CLionProjects/Masterproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="funcs">
+				<Option output="/home/lastsean/CLionProjects/Masterproject/cmake-build-debug/libfuncs.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lastsean/CLionProjects/Masterproject/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/lastsean/CLionProjects/Masterproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 funcs"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/lastsean/CLionProjects/Masterproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/lastsean/CLionProjects/Masterproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/lastsean/CLionProjects/Masterproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="funcs/fast">
+				<Option output="/home/lastsean/CLionProjects/Masterproject/cmake-build-debug/libfuncs.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lastsean/CLionProjects/Masterproject/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/lastsean/CLionProjects/Masterproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 funcs/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/lastsean/CLionProjects/Masterproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/lastsean/CLionProjects/Masterproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/lastsean/CLionProjects/Masterproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="motionlib">
+				<Option output="/home/lastsean/CLionProjects/Masterproject/cmake-build-debug/motionlib.cpython-36m-x86_64-linux-gnu.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lastsean/CLionProjects/Masterproject/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/lastsean/CLionProjects/Masterproject/pybind11/include"/>
+					<Add directory="/usr/local/include/python3.6m"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/lastsean/CLionProjects/Masterproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 motionlib"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/lastsean/CLionProjects/Masterproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/lastsean/CLionProjects/Masterproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/lastsean/CLionProjects/Masterproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="motionlib/fast">
+				<Option output="/home/lastsean/CLionProjects/Masterproject/cmake-build-debug/motionlib.cpython-36m-x86_64-linux-gnu.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lastsean/CLionProjects/Masterproject/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/lastsean/CLionProjects/Masterproject/pybind11/include"/>
+					<Add directory="/usr/local/include/python3.6m"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/lastsean/CLionProjects/Masterproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 motionlib/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/lastsean/CLionProjects/Masterproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/lastsean/CLionProjects/Masterproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/lastsean/CLionProjects/Masterproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/lastsean/CLionProjects/Masterproject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/lastsean/CLionProjects/Masterproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/lastsean/CLionProjects/Masterproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/lastsean/CLionProjects/Masterproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/lastsean/CLionProjects/Masterproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/lastsean/CLionProjects/Masterproject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/lastsean/CLionProjects/Masterproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/lastsean/CLionProjects/Masterproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/lastsean/CLionProjects/Masterproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/lastsean/CLionProjects/Masterproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/lastsean/CLionProjects/Masterproject/functions/JR_1_1.cpp">
+			<Option target="funcs"/>
+		</Unit>
+		<Unit filename="/home/lastsean/CLionProjects/Masterproject/functions/JR_1_1.h">
+			<Option target="funcs"/>
+		</Unit>
+		<Unit filename="/home/lastsean/CLionProjects/Masterproject/functions/JR_2_1.cpp">
+			<Option target="funcs"/>
+		</Unit>
+		<Unit filename="/home/lastsean/CLionProjects/Masterproject/functions/JR_2_1.h">
+			<Option target="funcs"/>
+		</Unit>
+		<Unit filename="/home/lastsean/CLionProjects/Masterproject/functions/JR_2_2.cpp">
+			<Option target="funcs"/>
+		</Unit>
+		<Unit filename="/home/lastsean/CLionProjects/Masterproject/functions/JR_2_2.h">
+			<Option target="funcs"/>
+		</Unit>
+		<Unit filename="/home/lastsean/CLionProjects/Masterproject/functions/JT_1_1.cpp">
+			<Option target="funcs"/>
+		</Unit>
+		<Unit filename="/home/lastsean/CLionProjects/Masterproject/functions/JT_1_1.h">
+			<Option target="funcs"/>
+		</Unit>
+		<Unit filename="/home/lastsean/CLionProjects/Masterproject/functions/JT_2_1.cpp">
+			<Option target="funcs"/>
+		</Unit>
+		<Unit filename="/home/lastsean/CLionProjects/Masterproject/functions/JT_2_1.h">
+			<Option target="funcs"/>
+		</Unit>
+		<Unit filename="/home/lastsean/CLionProjects/Masterproject/functions/JT_2_2.cpp">
+			<Option target="funcs"/>
+		</Unit>
+		<Unit filename="/home/lastsean/CLionProjects/Masterproject/functions/JT_2_2.h">
+			<Option target="funcs"/>
+		</Unit>
+		<Unit filename="/home/lastsean/CLionProjects/Masterproject/functions/a_1_1.cpp">
+			<Option target="funcs"/>
+		</Unit>
+		<Unit filename="/home/lastsean/CLionProjects/Masterproject/functions/a_1_1.h">
+			<Option target="funcs"/>
+		</Unit>
+		<Unit filename="/home/lastsean/CLionProjects/Masterproject/functions/a_2_1.cpp">
+			<Option target="funcs"/>
+		</Unit>
+		<Unit filename="/home/lastsean/CLionProjects/Masterproject/functions/a_2_1.h">
+			<Option target="funcs"/>
+		</Unit>
+		<Unit filename="/home/lastsean/CLionProjects/Masterproject/functions/a_2_2.cpp">
+			<Option target="funcs"/>
+		</Unit>
+		<Unit filename="/home/lastsean/CLionProjects/Masterproject/functions/a_2_2.h">
+			<Option target="funcs"/>
+		</Unit>
+		<Unit filename="/home/lastsean/CLionProjects/Masterproject/functions/alpha_1_1.cpp">
+			<Option target="funcs"/>
+		</Unit>
+		<Unit filename="/home/lastsean/CLionProjects/Masterproject/functions/alpha_1_1.h">
+			<Option target="funcs"/>
+		</Unit>
+		<Unit filename="/home/lastsean/CLionProjects/Masterproject/functions/alpha_2_1.cpp">
+			<Option target="funcs"/>
+		</Unit>
+		<Unit filename="/home/lastsean/CLionProjects/Masterproject/functions/alpha_2_1.h">
+			<Option target="funcs"/>
+		</Unit>
+		<Unit filename="/home/lastsean/CLionProjects/Masterproject/functions/alpha_2_2.cpp">
+			<Option target="funcs"/>
+		</Unit>
+		<Unit filename="/home/lastsean/CLionProjects/Masterproject/functions/alpha_2_2.h">
+			<Option target="funcs"/>
+		</Unit>
+		<Unit filename="/home/lastsean/CLionProjects/Masterproject/functions/wcrl_1_1.cpp">
+			<Option target="funcs"/>
+		</Unit>
+		<Unit filename="/home/lastsean/CLionProjects/Masterproject/functions/wcrl_1_1.h">
+			<Option target="funcs"/>
+		</Unit>
+		<Unit filename="/home/lastsean/CLionProjects/Masterproject/functions/wcrl_2_1.cpp">
+			<Option target="funcs"/>
+		</Unit>
+		<Unit filename="/home/lastsean/CLionProjects/Masterproject/functions/wcrl_2_1.h">
+			<Option target="funcs"/>
+		</Unit>
+		<Unit filename="/home/lastsean/CLionProjects/Masterproject/functions/wcrl_2_2.cpp">
+			<Option target="funcs"/>
+		</Unit>
+		<Unit filename="/home/lastsean/CLionProjects/Masterproject/functions/wcrl_2_2.h">
+			<Option target="funcs"/>
+		</Unit>
+		<Unit filename="/home/lastsean/CLionProjects/Masterproject/src/binder.cpp">
+			<Option target="motionlib"/>
+		</Unit>
+		<Unit filename="/home/lastsean/CLionProjects/Masterproject/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/lastsean/CLionProjects/Masterproject/pybind11/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\pybind11\"/>
+		</Unit>
+		<Unit filename="/home/lastsean/CLionProjects/Masterproject/pybind11/tools/FindPythonLibsNew.cmake">
+			<Option virtualFolder="CMake Files\pybind11\tools\"/>
+		</Unit>
+		<Unit filename="/home/lastsean/CLionProjects/Masterproject/pybind11/tools/JoinPaths.cmake">
+			<Option virtualFolder="CMake Files\pybind11\tools\"/>
+		</Unit>
+		<Unit filename="/home/lastsean/CLionProjects/Masterproject/pybind11/tools/pybind11Common.cmake">
+			<Option virtualFolder="CMake Files\pybind11\tools\"/>
+		</Unit>
+		<Unit filename="/home/lastsean/CLionProjects/Masterproject/pybind11/tools/pybind11Tools.cmake">
+			<Option virtualFolder="CMake Files\pybind11\tools\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

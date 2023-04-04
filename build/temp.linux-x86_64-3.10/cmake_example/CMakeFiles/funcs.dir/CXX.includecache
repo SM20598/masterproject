@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lastsean/CLionProjects/pybindtesting1/functions/a_2_1.cpp
+a_2_1.h
+/home/lastsean/CLionProjects/pybindtesting1/functions/a_2_1.h
+limits
+/home/lastsean/CLionProjects/pybindtesting1/functions/limits
+cmath
+-
+
+/home/lastsean/CLionProjects/pybindtesting1/functions/a_2_1.h
+

@@ -1,0 +1,8 @@
+README.txt
+setup.py
+motionlib.egg-info/PKG-INFO
+motionlib.egg-info/SOURCES.txt
+motionlib.egg-info/dependency_links.txt
+motionlib.egg-info/not-zip-safe
+motionlib.egg-info/requires.txt
+motionlib.egg-info/top_level.txt

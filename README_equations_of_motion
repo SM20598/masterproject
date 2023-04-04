@@ -1,0 +1,52 @@
+GENERATE EQUATIONS OF MOTION (EOM):
+
+	The project offers two ways of deriving the equations of motion, a PYTHON sided generation
+	and a MATLAB/C++ sided generation.
+
+1) PYTHON:
+
+	The file EOMTool.py is a class which generates the EOM using sympy library. It saves the
+	variables in a dictionary 'self.segment' which can be access later.
+	
+	WARNING: It is not recommended to use the Python sided generation, as the derivation takes
+		 very long with sympy's simplify function. If simplification is left out the terms
+		 will become extremely large and not optimized leading to extremly long processing
+		 times. Even simplifying generates inefficient variables which will be to slow for
+		 actual application.
+
+2) MATLAB/C++:
+	
+	The matlab script 'derive_EOM_VARIABLES.m' follow the Newton-Euler-Formalism and generates
+	the relevant Matrices and Vectors according to the defined Softrobot configuration.
+
+		JT : translational Jacobian J_T(y, t)
+		a_ : local translational acceleration a^_(y, dy, t)
+		JR : rotational Jacobian J_R(y, t)
+		wrcl : angular velocity (in matrix form) w^~(y, dy, t)
+		alpha_ : local rotational acceleration alpha^_(y, dy, t)
+		
+	The variables are saved as 'matlabfunctions' in "varname_numseg_curseg.m". Then 'codegen'
+	generates C++ files/libraries. The two general cpp and header files (example for Jacobian:
+	JT_2_1.cpp & JT_2_1.h) contain the desired function to calculate the desired variable. Copy
+	both files into the desired C++ project and edit the following (example for Jacobian):
+	
+		in JT_2_1.cpp:
+		
+			- remove line '#include "rt_nonfinite.h" in JT_2_1.cpp
+			- add lines 
+				
+				#include "limits"
+					
+				- replace 'rtNaN' with 'std::numeric_limits<double>::quiet_NaN();'
+				- replace 'rtInf' with 'std::numeric_limits<double>::infinity();'
+		
+		in JT_2_1.h:
+		
+			- remove lines:
+				
+				#include "rtwtypes.h"
+				#include <cstddef>
+				#include <cstdlib>
+	
+	To use the functions in Python
+	
