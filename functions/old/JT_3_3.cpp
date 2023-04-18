@@ -1,0 +1,826 @@
+//
+// Academic License - for use in teaching, academic research, and meeting
+// course requirements at degree granting institutions only.  Not for
+// government, commercial, or other organizational use.
+//
+// JT_3_3.cpp
+//
+// Code generation for function 'JT_3_3'
+//
+
+// Include files
+#include "JT_3_3.h"
+#include "limits.h"
+#include <cmath>
+
+// Function Declarations
+static double rt_powd_snf(double u0, double u1);
+
+// Function Definitions
+static double rt_powd_snf(double u0, double u1)
+{
+  double y;
+  if (std::isnan(u0) || std::isnan(u1)) {
+    y = std::numeric_limits<double>::quiet_NaN();
+  } else {
+    double d;
+    double d1;
+    d = std::abs(u0);
+    d1 = std::abs(u1);
+    if (std::isinf(u1)) {
+      if (d == 1.0) {
+        y = 1.0;
+      } else if (d > 1.0) {
+        if (u1 > 0.0) {
+          y = std::numeric_limits<double>::infinity();
+        } else {
+          y = 0.0;
+        }
+      } else if (u1 > 0.0) {
+        y = 0.0;
+      } else {
+        y = std::numeric_limits<double>::infinity();
+      }
+    } else if (d1 == 0.0) {
+      y = 1.0;
+    } else if (d1 == 1.0) {
+      if (u1 > 0.0) {
+        y = u0;
+      } else {
+        y = 1.0 / u0;
+      }
+    } else if (u1 == 2.0) {
+      y = u0 * u0;
+    } else if ((u1 == 0.5) && (u0 >= 0.0)) {
+      y = std::sqrt(u0);
+    } else if ((u0 < 0.0) && (u1 > std::floor(u1))) {
+      y = std::numeric_limits<double>::quiet_NaN();
+    } else {
+      y = std::pow(u0, u1);
+    }
+  }
+  return y;
+}
+
+void JT_3_3(double l, const double in2[12], double JT[18])
+{
+  double b_t117_tmp;
+  double b_t126_tmp;
+  double b_t135_tmp;
+  double b_t173_tmp;
+  double b_t181_tmp;
+  double b_t183_tmp;
+  double b_t189_tmp;
+  double b_t190_tmp;
+  double b_t191_tmp;
+  double b_t192_tmp;
+  double b_t193_tmp;
+  double b_t61_tmp;
+  double b_t61_tmp_tmp;
+  double b_t85_tmp;
+  double b_t86_tmp;
+  double c_t192_tmp;
+  double c_t61_tmp;
+  double c_t61_tmp_tmp;
+  double d_t61_tmp;
+  double d_t61_tmp_tmp;
+  double e_t61_tmp;
+  double e_t61_tmp_tmp;
+  double f_t61_tmp;
+  double g_t61_tmp;
+  double h_t61_tmp;
+  double i_t61_tmp;
+  double j_t61_tmp;
+  double k_t61_tmp;
+  double l_t61_tmp;
+  double m_t61_tmp;
+  double n_t61_tmp;
+  double o_t61_tmp;
+  double p_t61_tmp;
+  double q_t61_tmp;
+  double r_t61_tmp;
+  double s_t61_tmp;
+  double t10;
+  double t101;
+  double t101_tmp;
+  double t103;
+  double t104;
+  double t105;
+  double t106;
+  double t107;
+  double t109;
+  double t11;
+  double t110_tmp;
+  double t111;
+  double t113;
+  double t113_tmp;
+  double t115;
+  double t115_tmp;
+  double t116;
+  double t116_tmp;
+  double t117;
+  double t117_tmp;
+  double t118;
+  double t119_tmp;
+  double t120;
+  double t120_tmp;
+  double t120_tmp_tmp;
+  double t121;
+  double t122;
+  double t124;
+  double t124_tmp;
+  double t125;
+  double t126;
+  double t126_tmp;
+  double t127;
+  double t127_tmp;
+  double t127_tmp_tmp;
+  double t13;
+  double t133;
+  double t133_tmp;
+  double t134;
+  double t135;
+  double t135_tmp;
+  double t136;
+  double t14;
+  double t146;
+  double t146_tmp;
+  double t146_tmp_tmp;
+  double t15;
+  double t159_tmp;
+  double t16;
+  double t160;
+  double t160_tmp;
+  double t163;
+  double t164;
+  double t164_tmp;
+  double t165;
+  double t168;
+  double t169;
+  double t169_tmp;
+  double t17;
+  double t172;
+  double t173;
+  double t173_tmp;
+  double t174;
+  double t174_tmp;
+  double t175;
+  double t175_tmp;
+  double t175_tmp_tmp;
+  double t18;
+  double t180;
+  double t181;
+  double t181_tmp;
+  double t182;
+  double t183;
+  double t183_tmp;
+  double t186;
+  double t187;
+  double t188;
+  double t188_tmp;
+  double t189;
+  double t189_tmp;
+  double t19;
+  double t190;
+  double t190_tmp;
+  double t191;
+  double t191_tmp;
+  double t192;
+  double t192_tmp;
+  double t193;
+  double t193_tmp;
+  double t194;
+  double t194_tmp;
+  double t2;
+  double t20;
+  double t21;
+  double t22;
+  double t23;
+  double t24;
+  double t26;
+  double t27;
+  double t28;
+  double t29;
+  double t3;
+  double t30;
+  double t31;
+  double t32;
+  double t33;
+  double t36;
+  double t37;
+  double t38;
+  double t39;
+  double t4;
+  double t40;
+  double t41;
+  double t49;
+  double t5;
+  double t50;
+  double t51;
+  double t52;
+  double t53;
+  double t54;
+  double t57;
+  double t58;
+  double t59;
+  double t60;
+  double t61;
+  double t61_tmp;
+  double t61_tmp_tmp;
+  double t62_tmp;
+  double t64;
+  double t64_tmp;
+  double t65_tmp;
+  double t68;
+  double t7;
+  double t79;
+  double t8;
+  double t80;
+  double t81;
+  double t81_tmp;
+  double t82;
+  double t82_tmp;
+  double t83;
+  double t84;
+  double t85_tmp;
+  double t86_tmp;
+  double t87;
+  double t88;
+  double t89;
+  double t9;
+  double t90;
+  double t91_tmp;
+  double t92_tmp;
+  double t96;
+  double t97;
+  double t98;
+  double t99;
+  double t_t61_tmp;
+  double u_t61_tmp;
+  double v_t61_tmp;
+  // JT_3_3
+  //     JT = JT_3_3(L,IN2)
+  //     This function was generated by the Symbolic Math Toolbox version 9.2.
+  //     07-Apr-2023 15:44:34
+  t2 = in2[1] * 2.0;
+  t3 = in2[0] * in2[0];
+  t4 = rt_powd_snf(in2[0], 3.0);
+  t5 = in2[1] * in2[1];
+  t7 = in2[2] * in2[2];
+  t8 = in2[4] * 2.0;
+  t9 = in2[3] * in2[3];
+  t10 = rt_powd_snf(in2[3], 3.0);
+  t11 = in2[4] * in2[4];
+  t13 = in2[5] * in2[5];
+  t14 = t3 + t9;
+  t15 = t5 + t11;
+  t16 = t7 + t13;
+  t17 = 1.0 / t14;
+  t19 = 1.0 / t15;
+  t21 = 1.0 / t16;
+  t23 = std::sqrt(t14);
+  t24 = std::sqrt(t15);
+  t14 = std::sqrt(t16);
+  t18 = t17 * t17;
+  t20 = t19 * t19;
+  t22 = t21 * t21;
+  t26 = 1.0 / t23;
+  t28 = 1.0 / t24;
+  t30 = 1.0 / t14;
+  t32 = l * t23;
+  t33 = l * t24;
+  t14 *= l;
+  t15 = t23 * 2.0;
+  t27 = rt_powd_snf(t26, 3.0);
+  t29 = rt_powd_snf(t28, 3.0);
+  t31 = rt_powd_snf(t30, 3.0);
+  t36 = std::cos(t32);
+  t37 = std::cos(t33);
+  t38 = std::cos(t14);
+  t39 = std::sin(t32);
+  t40 = std::sin(t33);
+  t41 = std::sin(t14);
+  t49 = t3 * t36;
+  t50 = t5 * t37;
+  t51 = t9 * t36;
+  t52 = t11 * t37;
+  t53 = l * t3 * t39;
+  t54 = l * t9 * t39;
+  t62_tmp = in2[0] * l;
+  t64_tmp = in2[0] * in2[1];
+  t64 = t64_tmp * t39 * t40;
+  t68 = t39 * t40 * in2[3] * in2[4];
+  t83 = t26 * t37 * t39;
+  t84 = t28 * t36 * t40;
+  t85_tmp = t62_tmp * t17;
+  b_t85_tmp = t85_tmp * t36;
+  t86_tmp = in2[1] * l;
+  t16 = t86_tmp * t19;
+  b_t86_tmp = t16 * t36 * t37;
+  t91_tmp = in2[0] * t27;
+  t92_tmp = in2[1] * t29 * t36 * t40;
+  t101_tmp = t26 * t28;
+  t101 = t101_tmp * t39 * t40;
+  t110_tmp = t91_tmp * t28;
+  t133_tmp = in2[0] * t5;
+  t133 = t133_tmp * t26 * t29 * t39 * t40;
+  t134 = t11 * t26 * t29 * t39 * t40 * in2[3];
+  t57 = t9 + t49;
+  t58 = t3 + t51;
+  t59 = t11 + t50;
+  t60 = t5 + t52;
+  t61 = t17 * (t36 - 1.0);
+  t65_tmp = in2[0] * t18;
+  t87 = in2[0] * t83;
+  t88 = in2[1] * t84;
+  t89 = t83 * in2[3];
+  t90 = t84 * in2[4];
+  t103 = in2[0] * t101;
+  t104 = in2[1] * t101;
+  t105 = t101 * in2[3];
+  t106 = t101 * in2[4];
+  t107 = t101_tmp * t64;
+  t111 = t101_tmp * t68;
+  t117_tmp = in2[1] * t19;
+  b_t117_tmp = t117_tmp * t26 * t39 * (t37 - 1.0);
+  t117 = b_t117_tmp * in2[4];
+  t119_tmp = t27 * t28;
+  t120_tmp_tmp = t26 * t29;
+  t120_tmp = t120_tmp_tmp * t64;
+  t120 = t120_tmp * in2[4];
+  t124_tmp = in2[1] * t26 * t29;
+  t124 = t124_tmp * t68;
+  t126_tmp = t62_tmp * t19;
+  b_t126_tmp = t126_tmp * t26 * t39;
+  t126 = b_t126_tmp * t50;
+  t127_tmp_tmp = l * t19;
+  t127_tmp = t127_tmp_tmp * t26 * t39;
+  t127 = t127_tmp * t52 * in2[3];
+  t135_tmp = t64_tmp * l;
+  b_t135_tmp = t135_tmp * t17 * t19 * t36 * (t37 - 1.0) * in2[3];
+  t135 = b_t135_tmp * in2[4];
+  t146_tmp_tmp = t64_tmp * t19;
+  t14 = t146_tmp_tmp * t27;
+  t146_tmp = t14 * t39 * (t37 - 1.0) * in2[3];
+  t146 = t146_tmp * in2[4];
+  t173_tmp = t14 * (t37 - 1.0);
+  b_t173_tmp = t173_tmp * t54;
+  t173 = b_t173_tmp * in2[4];
+  t175_tmp_tmp = t117_tmp * t27 * (t37 - 1.0);
+  t175_tmp = t175_tmp_tmp * t53 * in2[3];
+  t175 = t175_tmp * in2[4];
+  t181_tmp = in2[0] * t2;
+  b_t181_tmp = t181_tmp * t9 * t18 * t19 * (t36 - 1.0) * (t37 - 1.0);
+  t181 = b_t181_tmp * in2[4];
+  t183_tmp = t2 * t3 * t18;
+  b_t183_tmp = t183_tmp * t19 * (t36 - 1.0) * (t37 - 1.0) * in2[3];
+  t183 = b_t183_tmp * in2[4];
+  t79 = t15 - t53;
+  t80 = t15 - t54;
+  t81_tmp = t86_tmp * t11;
+  t81 = t2 - t81_tmp * t28 * t40;
+  t82_tmp = l * t5;
+  t82 = t8 - t82_tmp * t28 * t40 * in2[4];
+  t96 = in2[0] * t36 * 2.0 - l * t4 * t26 * t39;
+  t97 = t2 * t37 - l * rt_powd_snf(in2[1], 3.0) * t28 * t40;
+  t98 = t36 * in2[3] * 2.0 - l * t10 * t26 * t39;
+  t99 = t8 * t37 - l * rt_powd_snf(in2[4], 3.0) * t28 * t40;
+  t15 = t103 * in2[4];
+  t109 = t104 * in2[3];
+  t113_tmp = t16 * t87;
+  t113 = t113_tmp * in2[4];
+  t115_tmp = t16 * t89;
+  t115 = t115_tmp * in2[4];
+  t116_tmp = in2[0] * t28 * t40;
+  t116 = t116_tmp * t61 * in2[3];
+  t118 = l * t107;
+  t125 = l * t111;
+  t136 = t135_tmp * t19 * t37 * t61 * in2[3] * in2[4];
+  t169_tmp = t181_tmp * t20;
+  t169 = t169_tmp * (t37 - 1.0) * t61 * in2[3] * in2[4];
+  t172 = t135_tmp * t11 * t29 * t40 * t61 * in2[3];
+  t174_tmp = t62_tmp * t5 * t29 * t40 * t61 * in2[3];
+  t174 = t174_tmp * in2[4];
+  t180 = t181_tmp * t11 * t20 * (t37 - 1.0) * t61 * in2[3];
+  t186 = (t64 + t68) - t23 * t24 * t36 * t37;
+  t121 = l * t15;
+  t122 = l * t109;
+  t159_tmp = t64_tmp * t29 * t40;
+  t23 = in2[0] * t19;
+  t14 = t23 * (t37 - 1.0);
+  t160_tmp = t14 * -t61;
+  t160 = t160_tmp * in2[3];
+  t164_tmp = t146_tmp_tmp * (t37 - 1.0) * -t61;
+  t164 = t164_tmp * in2[4];
+  t135_tmp = t117_tmp * (t37 - 1.0) * -t61 * in2[3];
+  t24 = t135_tmp * in2[4];
+  t168 = t159_tmp * -t61 * in2[3] * in2[4];
+  t182 = in2[1] * t169;
+  t188_tmp = t23 * t26 * t39;
+  t188 = (t88 + t117 * in2[3]) + t188_tmp * t59;
+  t190_tmp = t19 * t26 * t39;
+  b_t190_tmp = t190_tmp * t60;
+  t190 = (t90 + in2[0] * t117) + b_t190_tmp * in2[3];
+  t14 = in2[1] * (t14 * t61 * in2[3]) * in2[4];
+  t163 = in2[1] * t160;
+  t165 = t160 * in2[4];
+  t117_tmp = in2[1] * t17;
+  t16 = t117_tmp * t28 * t40;
+  t187 = (t87 + t116 * in2[4]) + t16 * t57;
+  t189_tmp = t17 * t28 * t40;
+  b_t189_tmp = t189_tmp * t58;
+  t189 = (t89 + in2[1] * t116) + b_t189_tmp * in2[4];
+  t192_tmp = t117_tmp * t19 * (t37 - 1.0);
+  b_t192_tmp = t23 * t60;
+  c_t192_tmp = t192_tmp * t57;
+  t192 = (-t15 + b_t192_tmp * t61 * in2[3]) + c_t192_tmp * in2[4];
+  t193_tmp = t23 * t59;
+  b_t193_tmp = t192_tmp * t58;
+  t193 = (-t109 + t193_tmp * t61 * in2[3]) + b_t193_tmp * in2[4];
+  t191_tmp = t17 * t19;
+  b_t191_tmp = t191_tmp * t57;
+  t191 = (-t107 + t14) + b_t191_tmp * t59;
+  t194_tmp = t191_tmp * t58;
+  t194 = (-t111 + t14) + t194_tmp * t60;
+  t61_tmp = t3 * t18;
+  b_t61_tmp = l * t17;
+  c_t61_tmp = t3 * t27;
+  d_t61_tmp = t192_tmp * t96;
+  t61_tmp_tmp = b_t61_tmp * t28 * t40;
+  e_t61_tmp = t61_tmp_tmp * t49;
+  f_t61_tmp = c_t61_tmp * t28 * t39 * t40;
+  b_t61_tmp_tmp = t181_tmp * t18 * t19 * (t37 - 1.0);
+  g_t61_tmp = b_t61_tmp_tmp * t57;
+  h_t61_tmp = t19 * t27;
+  i_t61_tmp = t30 * t41;
+  j_t61_tmp = t65_tmp * t19;
+  c_t61_tmp_tmp = t21 * (t38 - 1.0);
+  k_t61_tmp = c_t61_tmp_tmp * in2[5];
+  l_t61_tmp = h_t61_tmp * t53;
+  m_t61_tmp = t61_tmp * t19 * (t36 - 1.0);
+  n_t61_tmp = in2[2] * t21 * (t38 - 1.0);
+  o_t61_tmp = t86_tmp * t17;
+  p_t61_tmp = in2[1] * t3;
+  q_t61_tmp = -t61 + t101;
+  r_t61_tmp = b_t61_tmp * t37;
+  s_t61_tmp = o_t61_tmp * t28 * t40;
+  JT[0] = ((((((((((q_t61_tmp + t27 * t53) +
+                   i_t61_tmp *
+                       (((((((t83 + r_t61_tmp * t49) - c_t61_tmp * t37 * t39) +
+                            t16 * t96) +
+                           t28 * t40 * t61 * in2[3] * in2[4]) +
+                          t119_tmp * t40 * -t53 * in2[3] * in2[4]) -
+                         t64_tmp * t18 * t28 * t40 * t57 * 2.0) -
+                        t61_tmp * t28 * t40 * (t36 - 1.0) * in2[3] * in2[4] *
+                            2.0)) +
+                  t61_tmp * (t36 - 1.0) * 2.0) +
+                 k_t61_tmp * (((((((t106 + t19 * t60 * -t61 * in2[3]) +
+                                   l_t61_tmp * t60 * in2[3]) -
+                                  d_t61_tmp * in2[4]) +
+                                 e_t61_tmp * in2[4]) -
+                                f_t61_tmp * in2[4]) +
+                               m_t61_tmp * t60 * in2[3] * 2.0) +
+                              g_t61_tmp * in2[4])) +
+                n_t61_tmp *
+                    (((((((t104 + t24) + t175) + t183) - t191_tmp * t59 * t96) +
+                       j_t61_tmp * t57 * t59 * 2.0) -
+                      p_t61_tmp * t27 * t28 * t39 * t40) +
+                     s_t61_tmp * t49)) -
+               d_t61_tmp) +
+              e_t61_tmp) -
+             f_t61_tmp) +
+            t19 * (t37 - 1.0) * -t61 * in2[3] * in2[4]) +
+           g_t61_tmp) +
+          (h_t61_tmp * (t37 - 1.0) * t53 * in2[3] * in2[4] +
+           t3 * t8 * t18 * t19 * (t36 - 1.0) * (t37 - 1.0) * in2[3]);
+  d_t61_tmp_tmp = in2[0] * t8;
+  t61_tmp = d_t61_tmp_tmp * t18;
+  c_t61_tmp = t23 * t27;
+  d_t61_tmp = t91_tmp * t37 * t39 * in2[3] - b_t85_tmp * t37 * in2[3];
+  e_t61_tmp = t110_tmp * t40;
+  f_t61_tmp = in2[1] * t27 * t28 * t40;
+  g_t61_tmp =
+      ((t62_tmp * t27 * t39 * in2[3] + t65_tmp * (t36 - 1.0) * in2[3] * 2.0) +
+       t85_tmp * t84 * in2[3]) -
+      t110_tmp * t39 * t40 * in2[3];
+  t_t61_tmp = t85_tmp * t88 * in2[3] - t119_tmp * t64 * in2[3];
+  u_t61_tmp = t85_tmp * t90 * in2[3] - t110_tmp * t68;
+  v_t61_tmp = c_t61_tmp * (t37 - 1.0);
+  JT[1] =
+      (((((((g_t61_tmp -
+             i_t61_tmp * (((((d_t61_tmp + in2[1] * t28 * t40 * -t61 * in2[3]) +
+                             t61_tmp * t28 * t40 * t58) +
+                            f_t61_tmp * t53 * in2[3]) -
+                           e_t61_tmp * t80 * in2[4]) +
+                          t183_tmp * t28 * t40 * (t36 - 1.0) * in2[3])) +
+            k_t61_tmp * (((((u_t61_tmp + t24) + t175) + t183) +
+                          j_t61_tmp * t58 * t60 * 2.0) -
+                         c_t61_tmp * t60 * t80)) +
+           n_t61_tmp * (((((t_t61_tmp + t19 * t59 * -t61 * in2[3]) +
+                           l_t61_tmp * t59 * in2[3]) +
+                          m_t61_tmp * t59 * in2[3] * 2.0) -
+                         t173_tmp * t80 * in2[4]) +
+                        b_t61_tmp_tmp * t58 * in2[4])) +
+          t135_tmp) +
+         t61_tmp * t19 * (t37 - 1.0) * t58) +
+        t175_tmp) -
+       v_t61_tmp * t80 * in2[4]) +
+      b_t183_tmp;
+  t61_tmp = p_t61_tmp * t19 * t27 * t39 * (t37 - 1.0);
+  b_t61_tmp_tmp = o_t61_tmp * t19;
+  e_t61_tmp_tmp = b_t61_tmp_tmp * (t37 - 1.0);
+  j_t61_tmp = e_t61_tmp_tmp * t49;
+  l_t61_tmp = c_t61_tmp * t39;
+  m_t61_tmp = t85_tmp * t19 * t36;
+  p_t61_tmp = b_t61_tmp * t19;
+  t183 = in2[0] * t9;
+  t53 = in2[1] * t9;
+  b_t183_tmp = t119_tmp * t30 * t41;
+  JT[2] = (((((((((-l * t103 - t91_tmp * t39) + b_t85_tmp) -
+                 n_t61_tmp * (((((t118 - t135) + t146) - t190_tmp * t59) -
+                               p_t61_tmp * t49 * t59) +
+                              t3 * t19 * t27 * t39 * t59)) +
+                k_t61_tmp * (((((t117 - t121) - l_t61_tmp * t60 * in2[3]) +
+                               m_t61_tmp * t60 * in2[3]) +
+                              j_t61_tmp * in2[4]) -
+                             t61_tmp * in2[4])) +
+               b_t117_tmp) -
+              b_t183_tmp * (((((-in2[0] * t68 + t53 * t39 * t40) +
+                               in2[1] * t32 * t40 * t49) +
+                              t4 * t33 * t37 * t39) +
+                             t183 * t33 * t37 * t39) +
+                            in2[0] * t32 * t36 * t40 * in2[3] * in2[4])) -
+             t61_tmp) +
+            j_t61_tmp) -
+           l_t61_tmp * (t37 - 1.0) * in2[3] * in2[4]) +
+          m_t61_tmp * (t37 - 1.0) * in2[3] * in2[4];
+  t175_tmp = t191_tmp * (t37 - 1.0);
+  t61_tmp = t175_tmp * t57;
+  t14 = in2[1] * t2 * t17 * t20 * (t37 - 1.0);
+  j_t61_tmp = t14 * t57;
+  t15 = t82_tmp * t17 * t29 * t40;
+  t175 = t15 * t57;
+  t183_tmp = t2 * t17 * t20;
+  t80 = t23 * -t61;
+  t173_tmp = t113 - t120;
+  t110_tmp = l * (t159_tmp * t61 * in2[3] * in2[4]) + t169;
+  JT[3] =
+      (((((((t110_tmp +
+             i_t61_tmp * (((((t136 - t118) + t168) + t189_tmp * t57) +
+                           p_t61_tmp * t50 * t57) -
+                          t5 * t17 * t29 * t40 * t57)) -
+            t120_tmp) +
+           t113_tmp) -
+          t61_tmp) +
+         k_t61_tmp * (((((t173_tmp + t80 * t81 * in2[3]) - t61_tmp * in2[4]) +
+                        t169_tmp * t60 * t61 * in2[3]) +
+                       j_t61_tmp * in2[4]) +
+                      t175 * in2[4])) +
+        n_t61_tmp * (((((((t103 + t126) - t133) + t165) + t174) + t182) -
+                      b_t191_tmp * t97) +
+                     t183_tmp * t57 * t59)) +
+       j_t61_tmp) +
+      t175;
+  t61_tmp = t64_tmp * t2 * t20;
+  j_t61_tmp = t117_tmp * t29 * t40;
+  t175 = b_t61_tmp_tmp * t37;
+  t101 = t183_tmp * (t37 - 1.0);
+  o_t61_tmp = o_t61_tmp * t29 * t40;
+  t96 = t175_tmp * t58;
+  t65_tmp = t115 - t124;
+  JT[4] =
+      ((((((((t160 +
+              i_t61_tmp * (((((t116 - t122) + t126_tmp * t50 * t61 * in2[3]) +
+                             t133_tmp * t29 * t40 * -t61 * in2[3]) -
+                            j_t61_tmp * t58 * in2[4]) +
+                           t175 * t58 * in2[4])) +
+             t115_tmp) +
+            k_t61_tmp * (((((t65_tmp + t165) + t174) + t182) - t194_tmp * t81) +
+                         t183_tmp * t58 * t60)) +
+           n_t61_tmp * (((((((t105 + t80 * t97 * in2[3]) - t96 * in2[4]) +
+                            t169_tmp * t59 * t61 * in2[3]) +
+                           t127_tmp * t50 * in2[3]) -
+                          t5 * t26 * t29 * t39 * t40 * in2[3]) +
+                         t14 * t58 * in2[4]) +
+                        t15 * t58 * in2[4])) -
+          t124_tmp * t39 * t40 * in2[3]) +
+         t101 * t58 * in2[4]) +
+        t61_tmp * (t37 - 1.0) * t61 * in2[3]) +
+       t174_tmp) +
+      o_t61_tmp * t58 * in2[4];
+  t183_tmp = t188_tmp * (t37 - 1.0);
+  t117_tmp = t190_tmp * (t37 - 1.0);
+  t109 = t127_tmp_tmp * t36;
+  t107 = t92_tmp * in2[4] - b_t86_tmp * in2[4];
+  t111 = t117_tmp * in2[3];
+  t181_tmp = t64_tmp * t20 * t26 * t39;
+  JT[5] =
+      ((((((((l * -t124 + l * -t133) -
+             i_t61_tmp * (((((t103 + t115) + t126) - t124) - t133) + l * t88)) -
+            t92_tmp) -
+           k_t61_tmp *
+               (((((t107 + l * t133 * in2[4]) - t190_tmp * t81 * in2[3]) -
+                  t183_tmp * in2[4]) +
+                 t2 * t20 * t26 * t39 * t60 * in2[3]) +
+                t61_tmp * t26 * t39 * (t37 - 1.0) * in2[4])) +
+          n_t61_tmp *
+              (((((((t84 + t109 * t50) - t5 * t29 * t36 * t40) +
+                   t188_tmp * t97) -
+                  t82_tmp * t26 * t29 * t68) +
+                 t111 * in2[4]) -
+                t181_tmp * t59 * 2.0) -
+               t5 * t20 * t26 * t39 * (t37 - 1.0) * in2[3] * in2[4] * 2.0)) +
+         b_t86_tmp) +
+        t183_tmp) -
+       t133_tmp * t20 * t26 * t39 * (t37 - 1.0) * 2.0) -
+      in2[1] * t20 * t26 * t39 * (t37 - 1.0) * in2[3] * in2[4] * 2.0;
+  t61_tmp = in2[2] * l;
+  t183_tmp = -t21 * (t38 - 1.0);
+  t16 = in2[2] * t31 * t41;
+  t135_tmp = t7 * t22 * (t38 - 1.0);
+  b_t61_tmp_tmp = t61_tmp * t21;
+  t24 = b_t61_tmp_tmp * t38;
+  t23 = in2[2] * t22 * (t38 - 1.0);
+  t15 = l * t7 * t31 * t41;
+  t61_tmp = t61_tmp * t31 * t41;
+  JT[6] = (((((t183_tmp * t191 - t16 * t187) + t135_tmp * t191 * 2.0) +
+             t24 * t187) +
+            t23 * t192 * in2[5] * 2.0) +
+           t15 * t191) +
+          t61_tmp * t192 * in2[5];
+  JT[7] = (((((t183_tmp * t193 - t16 * t189) + t135_tmp * t193 * 2.0) +
+             t24 * t189) +
+            t23 * t194 * in2[5] * 2.0) +
+           t15 * t193) +
+          t61_tmp * t194 * in2[5];
+  JT[8] = (((((c_t61_tmp_tmp * t188 - t135_tmp * t188 * 2.0) -
+              t23 * t190 * in2[5] * 2.0) -
+             t15 * t188) -
+            t61_tmp * t190 * in2[5]) +
+           in2[2] * t26 * t28 * t31 * t41 * t186) -
+          b_t61_tmp_tmp * t26 * t28 * t38 * t186;
+  t16 = t2 * t18;
+  t135_tmp = t175_tmp_tmp * t79 * in2[3];
+  b_t61_tmp_tmp = t16 * t19 * (t37 - 1.0);
+  t24 = b_t61_tmp_tmp * t57 * in2[3];
+  t15 = d_t61_tmp_tmp * t9 * t18;
+  c_t61_tmp *= t54;
+  t183 = t183 * t18 * t19 * (t36 - 1.0);
+  t14 = t18 * t19;
+  JT[9] =
+      (((((((g_t61_tmp -
+             i_t61_tmp * (((((d_t61_tmp + t116_tmp * -t61 * in2[4]) +
+                             e_t61_tmp * t54 * in2[4]) -
+                            f_t61_tmp * t79 * in2[3]) +
+                           t16 * t28 * t40 * t57 * in2[3]) +
+                          t15 * t28 * t40 * (t36 - 1.0))) +
+            n_t61_tmp * (((((t_t61_tmp + t164) + t173) + t181) +
+                          t14 * t57 * t59 * in2[3] * 2.0) -
+                         h_t61_tmp * t59 * t79 * in2[3])) +
+           k_t61_tmp * (((((u_t61_tmp + b_t192_tmp * -t61) + c_t61_tmp * t60) +
+                          t183 * t60 * 2.0) -
+                         t135_tmp * in2[4]) +
+                        t24 * in2[4])) +
+          t160_tmp * in2[4]) +
+         v_t61_tmp * t54 * in2[4]) -
+        t135_tmp) +
+       t24) +
+      t15 * t19 * (t36 - 1.0) * (t37 - 1.0);
+  d_t61_tmp = t9 * t27;
+  e_t61_tmp = t61_tmp_tmp * t51;
+  f_t61_tmp = d_t61_tmp * t28 * t39 * t40;
+  JT[10] =
+      ((((((((((q_t61_tmp + t27 * t54) +
+               i_t61_tmp *
+                   (((((((t83 + r_t61_tmp * t51) - d_t61_tmp * t37 * t39) +
+                        t64_tmp * t28 * t40 * t61) +
+                       t189_tmp * t98 * in2[4]) -
+                      t18 * t28 * t40 * t58 * in2[3] * in2[4] * 2.0) +
+                     t64_tmp * t27 * t28 * t40 * -t54) -
+                    t64_tmp * t9 * t18 * t28 * t40 * (t36 - 1.0) * 2.0)) +
+              t9 * t18 * (t36 - 1.0) * 2.0) +
+             n_t61_tmp * (((((((t104 + t193_tmp * -t61) + c_t61_tmp * t59) -
+                              t53 * t27 * t28 * t39 * t40) +
+                             t183 * t59 * 2.0) -
+                            t192_tmp * t98 * in2[4]) +
+                           s_t61_tmp * t51) +
+                          b_t61_tmp_tmp * t58 * in2[3] * in2[4])) +
+            k_t61_tmp *
+                (((((((t106 + t164) + t173) + t181) - t191_tmp * t60 * t98) +
+                   t14 * t58 * t60 * in2[3] * 2.0) +
+                  e_t61_tmp * in2[4]) -
+                 f_t61_tmp * in2[4])) +
+           t164_tmp) +
+          e_t61_tmp) -
+         f_t61_tmp) -
+        t175_tmp * t98 * in2[4]) +
+       t8 * t18 * t19 * (t37 - 1.0) * t58 * in2[3]) +
+      (b_t173_tmp + b_t181_tmp);
+  c_t61_tmp = t9 * t19 * t27 * t39;
+  JT[11] =
+      (((((((((-l * t105 - t27 * t39 * in2[3]) + b_t61_tmp * t36 * in2[3]) -
+             k_t61_tmp * (((((t125 - t135) + t146) - b_t190_tmp) -
+                           p_t61_tmp * t51 * t60) +
+                          c_t61_tmp * t60)) +
+            n_t61_tmp * (((((t117 - t122) - l_t61_tmp * t59 * in2[3]) +
+                           m_t61_tmp * t59 * in2[3]) +
+                          e_t61_tmp_tmp * t51 * in2[4]) -
+                         t53 * t19 * t27 * t39 * (t37 - 1.0) * in2[4])) -
+           b_t183_tmp * (((((-t64 * in2[3] + t10 * t33 * t37 * t39) +
+                            t3 * t39 * t40 * in2[4]) +
+                           t32 * t40 * t51 * in2[4]) +
+                          t3 * t33 * t37 * t39 * in2[3]) +
+                         t64_tmp * t32 * t36 * t40 * in2[3])) +
+          t117_tmp * in2[4]) +
+         p_t61_tmp * (t37 - 1.0) * t51 * in2[4]) -
+        c_t61_tmp * (t37 - 1.0) * in2[4]) -
+       t146_tmp) +
+      b_t135_tmp;
+  b_t61_tmp = in2[0] * t11;
+  c_t61_tmp = d_t61_tmp_tmp * t20;
+  d_t61_tmp = t8 * t17 * t20;
+  t61_tmp_tmp = t2 * t11;
+  e_t61_tmp = t61_tmp_tmp * t17 * t20 * (t37 - 1.0);
+  f_t61_tmp = t81_tmp * t17 * t29 * t40;
+  JT[12] =
+      ((((((((t160 +
+              i_t61_tmp * (((((t116 - t121) + t126_tmp * t52 * t61 * in2[3]) +
+                             b_t61_tmp * t29 * t40 * -t61 * in2[3]) -
+                            j_t61_tmp * t57 * in2[4]) +
+                           t175 * t57 * in2[4])) +
+             n_t61_tmp *
+                 (((((t173_tmp + t163) + t172) + t180) - b_t191_tmp * t82) +
+                  d_t61_tmp * t57 * t59)) +
+            t127_tmp_tmp * t87 * in2[4]) +
+           k_t61_tmp * (((((((t103 - c_t192_tmp) + t80 * t99 * in2[3]) -
+                            b_t61_tmp * t26 * t29 * t39 * t40) +
+                           c_t61_tmp * t60 * t61 * in2[3]) +
+                          e_t61_tmp * t57) +
+                         b_t126_tmp * t52) +
+                        f_t61_tmp * t57)) -
+          in2[0] * t26 * t29 * t39 * t40 * in2[4]) +
+         t101 * t57 * in2[4]) +
+        t62_tmp * t11 * t29 * t40 * t61 * in2[3]) +
+       o_t61_tmp * t57 * in2[4]) +
+      c_t61_tmp * (t37 - 1.0) * t61 * in2[3] * in2[4];
+  b_t61_tmp = l * t11;
+  JT[13] =
+      (((((((t110_tmp + i_t61_tmp * (((((t136 - t125) + t168) + b_t189_tmp) +
+                                      p_t61_tmp * t52 * t58) -
+                                     t11 * t17 * t29 * t40 * t58)) -
+            t120_tmp_tmp * t68) +
+           t127_tmp_tmp * t89 * in2[4]) -
+          t96) +
+         k_t61_tmp * (((((((t105 + t127) - t134) + t163) + t172) + t180) -
+                       t194_tmp * t99) +
+                      d_t61_tmp * t58 * t60)) +
+        n_t61_tmp * (((((t65_tmp - b_t193_tmp) + t80 * t82 * in2[3]) +
+                       c_t61_tmp * t59 * t61 * in2[3]) +
+                      e_t61_tmp * t58) +
+                     f_t61_tmp * t58)) +
+       b_t61_tmp * t17 * t29 * t40 * t58) +
+      d_t61_tmp * (t37 - 1.0) * t58 * in2[4];
+  JT[14] =
+      ((((((((l * -t120 + l * -t134) -
+             i_t61_tmp * (((((t105 + t113) + t127) - t120) - t134) + l * t90)) -
+            t29 * t36 * t40 * in2[4]) +
+           k_t61_tmp * (((((((t84 + t109 * t52) - t11 * t29 * t36 * t40) -
+                            b_t61_tmp * t26 * t29 * t64) +
+                           t190_tmp * t99 * in2[3]) -
+                          t20 * t26 * t39 * t60 * in2[3] * in2[4] * 2.0) +
+                         t146_tmp_tmp * t26 * t39 * (t37 - 1.0)) -
+                        t64_tmp * t11 * t20 * t26 * t39 * (t37 - 1.0) * 2.0)) -
+          n_t61_tmp * (((((t107 + t86_tmp * t134) - t188_tmp * t82) +
+                         c_t61_tmp * t26 * t39 * t59) -
+                        b_t117_tmp * in2[3]) +
+                       t61_tmp_tmp * t20 * t26 * t39 * (t37 - 1.0) * in2[3])) +
+         t109 * t37 * in2[4]) +
+        t111) -
+       t11 * t20 * t26 * t39 * (t37 - 1.0) * in2[3] * 2.0) -
+      t181_tmp * (t37 - 1.0) * in2[4] * 2.0;
+  b_t61_tmp = t13 * t22 * (t38 - 1.0);
+  c_t61_tmp = t31 * t41;
+  d_t61_tmp = l * t13 * t31 * t41;
+  t61_tmp_tmp = l * t21;
+  e_t61_tmp = t61_tmp_tmp * t38;
+  JT[15] = (((((t183_tmp * t192 + b_t61_tmp * t192 * 2.0) -
+               c_t61_tmp * t187 * in2[5]) +
+              t23 * t191 * in2[5] * 2.0) +
+             d_t61_tmp * t192) +
+            e_t61_tmp * t187 * in2[5]) +
+           t61_tmp * t191 * in2[5];
+  JT[16] = (((((t183_tmp * t194 + b_t61_tmp * t194 * 2.0) -
+               c_t61_tmp * t189 * in2[5]) +
+              t23 * t193 * in2[5] * 2.0) +
+             d_t61_tmp * t194) +
+            e_t61_tmp * t189 * in2[5]) +
+           t61_tmp * t193 * in2[5];
+  JT[17] = (((((c_t61_tmp_tmp * t190 - b_t61_tmp * t190 * 2.0) -
+               t23 * t188 * in2[5] * 2.0) -
+              d_t61_tmp * t190) -
+             t61_tmp * t188 * in2[5]) +
+            t101_tmp * t31 * t41 * t186 * in2[5]) -
+           t61_tmp_tmp * t26 * t28 * t38 * t186 * in2[5];
+}
+
+// End of code generation (JT_3_3.cpp)

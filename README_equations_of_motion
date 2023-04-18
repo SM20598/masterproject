@@ -32,13 +32,13 @@ GENERATE EQUATIONS OF MOTION (EOM):
 	
 		in JT_2_1.cpp:
 		
-			- remove line '#include "rt_nonfinite.h" in JT_2_1.cpp
+			- remove line '#include "rt_nonfinite.h"' in JT_2_1.cpp
 			- add lines 
 				
 				#include "limits"
 					
-				- replace 'rtNaN' with 'std::numeric_limits<double>::quiet_NaN();'
-				- replace 'rtInf' with 'std::numeric_limits<double>::infinity();'
+				- replace 'rtNaN;' with 'std::numeric_limits<double>::quiet_NaN();'
+				- replace 'rtInf;' with 'std::numeric_limits<double>::infinity();'
 		
 		in JT_2_1.h:
 		

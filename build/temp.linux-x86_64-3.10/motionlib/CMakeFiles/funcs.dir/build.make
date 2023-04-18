@@ -90,9 +90,22 @@ CMakeFiles/funcs.dir/functions/JR_1_1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/funcs.dir/functions/JR_1_1.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lastsean/CLionProjects/Masterproject/functions/JR_1_1.cpp -o CMakeFiles/funcs.dir/functions/JR_1_1.cpp.s
 
+CMakeFiles/funcs.dir/functions/JR_1_1_taylor.cpp.o: CMakeFiles/funcs.dir/flags.make
+CMakeFiles/funcs.dir/functions/JR_1_1_taylor.cpp.o: ../../../functions/JR_1_1_taylor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/funcs.dir/functions/JR_1_1_taylor.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/funcs.dir/functions/JR_1_1_taylor.cpp.o -c /home/lastsean/CLionProjects/Masterproject/functions/JR_1_1_taylor.cpp
+
+CMakeFiles/funcs.dir/functions/JR_1_1_taylor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/funcs.dir/functions/JR_1_1_taylor.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lastsean/CLionProjects/Masterproject/functions/JR_1_1_taylor.cpp > CMakeFiles/funcs.dir/functions/JR_1_1_taylor.cpp.i
+
+CMakeFiles/funcs.dir/functions/JR_1_1_taylor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/funcs.dir/functions/JR_1_1_taylor.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lastsean/CLionProjects/Masterproject/functions/JR_1_1_taylor.cpp -o CMakeFiles/funcs.dir/functions/JR_1_1_taylor.cpp.s
+
 CMakeFiles/funcs.dir/functions/JR_2_1.cpp.o: CMakeFiles/funcs.dir/flags.make
 CMakeFiles/funcs.dir/functions/JR_2_1.cpp.o: ../../../functions/JR_2_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/funcs.dir/functions/JR_2_1.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/funcs.dir/functions/JR_2_1.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/funcs.dir/functions/JR_2_1.cpp.o -c /home/lastsean/CLionProjects/Masterproject/functions/JR_2_1.cpp
 
 CMakeFiles/funcs.dir/functions/JR_2_1.cpp.i: cmake_force
@@ -105,7 +118,7 @@ CMakeFiles/funcs.dir/functions/JR_2_1.cpp.s: cmake_force
 
 CMakeFiles/funcs.dir/functions/JR_2_2.cpp.o: CMakeFiles/funcs.dir/flags.make
 CMakeFiles/funcs.dir/functions/JR_2_2.cpp.o: ../../../functions/JR_2_2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/funcs.dir/functions/JR_2_2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/funcs.dir/functions/JR_2_2.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/funcs.dir/functions/JR_2_2.cpp.o -c /home/lastsean/CLionProjects/Masterproject/functions/JR_2_2.cpp
 
 CMakeFiles/funcs.dir/functions/JR_2_2.cpp.i: cmake_force
@@ -118,7 +131,7 @@ CMakeFiles/funcs.dir/functions/JR_2_2.cpp.s: cmake_force
 
 CMakeFiles/funcs.dir/functions/JR_3_1.cpp.o: CMakeFiles/funcs.dir/flags.make
 CMakeFiles/funcs.dir/functions/JR_3_1.cpp.o: ../../../functions/JR_3_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/funcs.dir/functions/JR_3_1.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/funcs.dir/functions/JR_3_1.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/funcs.dir/functions/JR_3_1.cpp.o -c /home/lastsean/CLionProjects/Masterproject/functions/JR_3_1.cpp
 
 CMakeFiles/funcs.dir/functions/JR_3_1.cpp.i: cmake_force
@@ -131,7 +144,7 @@ CMakeFiles/funcs.dir/functions/JR_3_1.cpp.s: cmake_force
 
 CMakeFiles/funcs.dir/functions/JR_3_2.cpp.o: CMakeFiles/funcs.dir/flags.make
 CMakeFiles/funcs.dir/functions/JR_3_2.cpp.o: ../../../functions/JR_3_2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/funcs.dir/functions/JR_3_2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/funcs.dir/functions/JR_3_2.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/funcs.dir/functions/JR_3_2.cpp.o -c /home/lastsean/CLionProjects/Masterproject/functions/JR_3_2.cpp
 
 CMakeFiles/funcs.dir/functions/JR_3_2.cpp.i: cmake_force
@@ -144,7 +157,7 @@ CMakeFiles/funcs.dir/functions/JR_3_2.cpp.s: cmake_force
 
 CMakeFiles/funcs.dir/functions/JR_3_3.cpp.o: CMakeFiles/funcs.dir/flags.make
 CMakeFiles/funcs.dir/functions/JR_3_3.cpp.o: ../../../functions/JR_3_3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/funcs.dir/functions/JR_3_3.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/funcs.dir/functions/JR_3_3.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/funcs.dir/functions/JR_3_3.cpp.o -c /home/lastsean/CLionProjects/Masterproject/functions/JR_3_3.cpp
 
 CMakeFiles/funcs.dir/functions/JR_3_3.cpp.i: cmake_force
@@ -157,7 +170,7 @@ CMakeFiles/funcs.dir/functions/JR_3_3.cpp.s: cmake_force
 
 CMakeFiles/funcs.dir/functions/JT_1_1.cpp.o: CMakeFiles/funcs.dir/flags.make
 CMakeFiles/funcs.dir/functions/JT_1_1.cpp.o: ../../../functions/JT_1_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/funcs.dir/functions/JT_1_1.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/funcs.dir/functions/JT_1_1.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/funcs.dir/functions/JT_1_1.cpp.o -c /home/lastsean/CLionProjects/Masterproject/functions/JT_1_1.cpp
 
 CMakeFiles/funcs.dir/functions/JT_1_1.cpp.i: cmake_force
@@ -168,9 +181,22 @@ CMakeFiles/funcs.dir/functions/JT_1_1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/funcs.dir/functions/JT_1_1.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lastsean/CLionProjects/Masterproject/functions/JT_1_1.cpp -o CMakeFiles/funcs.dir/functions/JT_1_1.cpp.s
 
+CMakeFiles/funcs.dir/functions/JT_1_1_taylor.cpp.o: CMakeFiles/funcs.dir/flags.make
+CMakeFiles/funcs.dir/functions/JT_1_1_taylor.cpp.o: ../../../functions/JT_1_1_taylor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/funcs.dir/functions/JT_1_1_taylor.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/funcs.dir/functions/JT_1_1_taylor.cpp.o -c /home/lastsean/CLionProjects/Masterproject/functions/JT_1_1_taylor.cpp
+
+CMakeFiles/funcs.dir/functions/JT_1_1_taylor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/funcs.dir/functions/JT_1_1_taylor.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lastsean/CLionProjects/Masterproject/functions/JT_1_1_taylor.cpp > CMakeFiles/funcs.dir/functions/JT_1_1_taylor.cpp.i
+
+CMakeFiles/funcs.dir/functions/JT_1_1_taylor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/funcs.dir/functions/JT_1_1_taylor.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lastsean/CLionProjects/Masterproject/functions/JT_1_1_taylor.cpp -o CMakeFiles/funcs.dir/functions/JT_1_1_taylor.cpp.s
+
 CMakeFiles/funcs.dir/functions/JT_2_1.cpp.o: CMakeFiles/funcs.dir/flags.make
 CMakeFiles/funcs.dir/functions/JT_2_1.cpp.o: ../../../functions/JT_2_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/funcs.dir/functions/JT_2_1.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/funcs.dir/functions/JT_2_1.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/funcs.dir/functions/JT_2_1.cpp.o -c /home/lastsean/CLionProjects/Masterproject/functions/JT_2_1.cpp
 
 CMakeFiles/funcs.dir/functions/JT_2_1.cpp.i: cmake_force
@@ -183,7 +209,7 @@ CMakeFiles/funcs.dir/functions/JT_2_1.cpp.s: cmake_force
 
 CMakeFiles/funcs.dir/functions/JT_2_2.cpp.o: CMakeFiles/funcs.dir/flags.make
 CMakeFiles/funcs.dir/functions/JT_2_2.cpp.o: ../../../functions/JT_2_2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/funcs.dir/functions/JT_2_2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/funcs.dir/functions/JT_2_2.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/funcs.dir/functions/JT_2_2.cpp.o -c /home/lastsean/CLionProjects/Masterproject/functions/JT_2_2.cpp
 
 CMakeFiles/funcs.dir/functions/JT_2_2.cpp.i: cmake_force
@@ -196,7 +222,7 @@ CMakeFiles/funcs.dir/functions/JT_2_2.cpp.s: cmake_force
 
 CMakeFiles/funcs.dir/functions/JT_3_1.cpp.o: CMakeFiles/funcs.dir/flags.make
 CMakeFiles/funcs.dir/functions/JT_3_1.cpp.o: ../../../functions/JT_3_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/funcs.dir/functions/JT_3_1.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/funcs.dir/functions/JT_3_1.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/funcs.dir/functions/JT_3_1.cpp.o -c /home/lastsean/CLionProjects/Masterproject/functions/JT_3_1.cpp
 
 CMakeFiles/funcs.dir/functions/JT_3_1.cpp.i: cmake_force
@@ -209,7 +235,7 @@ CMakeFiles/funcs.dir/functions/JT_3_1.cpp.s: cmake_force
 
 CMakeFiles/funcs.dir/functions/JT_3_2.cpp.o: CMakeFiles/funcs.dir/flags.make
 CMakeFiles/funcs.dir/functions/JT_3_2.cpp.o: ../../../functions/JT_3_2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/funcs.dir/functions/JT_3_2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/funcs.dir/functions/JT_3_2.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/funcs.dir/functions/JT_3_2.cpp.o -c /home/lastsean/CLionProjects/Masterproject/functions/JT_3_2.cpp
 
 CMakeFiles/funcs.dir/functions/JT_3_2.cpp.i: cmake_force
@@ -222,7 +248,7 @@ CMakeFiles/funcs.dir/functions/JT_3_2.cpp.s: cmake_force
 
 CMakeFiles/funcs.dir/functions/JT_3_3.cpp.o: CMakeFiles/funcs.dir/flags.make
 CMakeFiles/funcs.dir/functions/JT_3_3.cpp.o: ../../../functions/JT_3_3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/funcs.dir/functions/JT_3_3.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/funcs.dir/functions/JT_3_3.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/funcs.dir/functions/JT_3_3.cpp.o -c /home/lastsean/CLionProjects/Masterproject/functions/JT_3_3.cpp
 
 CMakeFiles/funcs.dir/functions/JT_3_3.cpp.i: cmake_force
@@ -235,7 +261,7 @@ CMakeFiles/funcs.dir/functions/JT_3_3.cpp.s: cmake_force
 
 CMakeFiles/funcs.dir/functions/a_1_1.cpp.o: CMakeFiles/funcs.dir/flags.make
 CMakeFiles/funcs.dir/functions/a_1_1.cpp.o: ../../../functions/a_1_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/funcs.dir/functions/a_1_1.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/funcs.dir/functions/a_1_1.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/funcs.dir/functions/a_1_1.cpp.o -c /home/lastsean/CLionProjects/Masterproject/functions/a_1_1.cpp
 
 CMakeFiles/funcs.dir/functions/a_1_1.cpp.i: cmake_force
@@ -246,9 +272,22 @@ CMakeFiles/funcs.dir/functions/a_1_1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/funcs.dir/functions/a_1_1.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lastsean/CLionProjects/Masterproject/functions/a_1_1.cpp -o CMakeFiles/funcs.dir/functions/a_1_1.cpp.s
 
+CMakeFiles/funcs.dir/functions/a_1_1_taylor.cpp.o: CMakeFiles/funcs.dir/flags.make
+CMakeFiles/funcs.dir/functions/a_1_1_taylor.cpp.o: ../../../functions/a_1_1_taylor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/funcs.dir/functions/a_1_1_taylor.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/funcs.dir/functions/a_1_1_taylor.cpp.o -c /home/lastsean/CLionProjects/Masterproject/functions/a_1_1_taylor.cpp
+
+CMakeFiles/funcs.dir/functions/a_1_1_taylor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/funcs.dir/functions/a_1_1_taylor.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lastsean/CLionProjects/Masterproject/functions/a_1_1_taylor.cpp > CMakeFiles/funcs.dir/functions/a_1_1_taylor.cpp.i
+
+CMakeFiles/funcs.dir/functions/a_1_1_taylor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/funcs.dir/functions/a_1_1_taylor.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lastsean/CLionProjects/Masterproject/functions/a_1_1_taylor.cpp -o CMakeFiles/funcs.dir/functions/a_1_1_taylor.cpp.s
+
 CMakeFiles/funcs.dir/functions/a_2_1.cpp.o: CMakeFiles/funcs.dir/flags.make
 CMakeFiles/funcs.dir/functions/a_2_1.cpp.o: ../../../functions/a_2_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/funcs.dir/functions/a_2_1.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/funcs.dir/functions/a_2_1.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/funcs.dir/functions/a_2_1.cpp.o -c /home/lastsean/CLionProjects/Masterproject/functions/a_2_1.cpp
 
 CMakeFiles/funcs.dir/functions/a_2_1.cpp.i: cmake_force
@@ -261,7 +300,7 @@ CMakeFiles/funcs.dir/functions/a_2_1.cpp.s: cmake_force
 
 CMakeFiles/funcs.dir/functions/a_2_2.cpp.o: CMakeFiles/funcs.dir/flags.make
 CMakeFiles/funcs.dir/functions/a_2_2.cpp.o: ../../../functions/a_2_2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/funcs.dir/functions/a_2_2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/funcs.dir/functions/a_2_2.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/funcs.dir/functions/a_2_2.cpp.o -c /home/lastsean/CLionProjects/Masterproject/functions/a_2_2.cpp
 
 CMakeFiles/funcs.dir/functions/a_2_2.cpp.i: cmake_force
@@ -274,7 +313,7 @@ CMakeFiles/funcs.dir/functions/a_2_2.cpp.s: cmake_force
 
 CMakeFiles/funcs.dir/functions/a_3_1.cpp.o: CMakeFiles/funcs.dir/flags.make
 CMakeFiles/funcs.dir/functions/a_3_1.cpp.o: ../../../functions/a_3_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/funcs.dir/functions/a_3_1.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/funcs.dir/functions/a_3_1.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/funcs.dir/functions/a_3_1.cpp.o -c /home/lastsean/CLionProjects/Masterproject/functions/a_3_1.cpp
 
 CMakeFiles/funcs.dir/functions/a_3_1.cpp.i: cmake_force
@@ -287,7 +326,7 @@ CMakeFiles/funcs.dir/functions/a_3_1.cpp.s: cmake_force
 
 CMakeFiles/funcs.dir/functions/a_3_2.cpp.o: CMakeFiles/funcs.dir/flags.make
 CMakeFiles/funcs.dir/functions/a_3_2.cpp.o: ../../../functions/a_3_2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/funcs.dir/functions/a_3_2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/funcs.dir/functions/a_3_2.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/funcs.dir/functions/a_3_2.cpp.o -c /home/lastsean/CLionProjects/Masterproject/functions/a_3_2.cpp
 
 CMakeFiles/funcs.dir/functions/a_3_2.cpp.i: cmake_force
@@ -300,7 +339,7 @@ CMakeFiles/funcs.dir/functions/a_3_2.cpp.s: cmake_force
 
 CMakeFiles/funcs.dir/functions/a_3_3.cpp.o: CMakeFiles/funcs.dir/flags.make
 CMakeFiles/funcs.dir/functions/a_3_3.cpp.o: ../../../functions/a_3_3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/funcs.dir/functions/a_3_3.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/funcs.dir/functions/a_3_3.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/funcs.dir/functions/a_3_3.cpp.o -c /home/lastsean/CLionProjects/Masterproject/functions/a_3_3.cpp
 
 CMakeFiles/funcs.dir/functions/a_3_3.cpp.i: cmake_force
@@ -313,7 +352,7 @@ CMakeFiles/funcs.dir/functions/a_3_3.cpp.s: cmake_force
 
 CMakeFiles/funcs.dir/functions/alpha_1_1.cpp.o: CMakeFiles/funcs.dir/flags.make
 CMakeFiles/funcs.dir/functions/alpha_1_1.cpp.o: ../../../functions/alpha_1_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/funcs.dir/functions/alpha_1_1.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/funcs.dir/functions/alpha_1_1.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/funcs.dir/functions/alpha_1_1.cpp.o -c /home/lastsean/CLionProjects/Masterproject/functions/alpha_1_1.cpp
 
 CMakeFiles/funcs.dir/functions/alpha_1_1.cpp.i: cmake_force
@@ -324,9 +363,22 @@ CMakeFiles/funcs.dir/functions/alpha_1_1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/funcs.dir/functions/alpha_1_1.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lastsean/CLionProjects/Masterproject/functions/alpha_1_1.cpp -o CMakeFiles/funcs.dir/functions/alpha_1_1.cpp.s
 
+CMakeFiles/funcs.dir/functions/alpha_1_1_taylor.cpp.o: CMakeFiles/funcs.dir/flags.make
+CMakeFiles/funcs.dir/functions/alpha_1_1_taylor.cpp.o: ../../../functions/alpha_1_1_taylor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/funcs.dir/functions/alpha_1_1_taylor.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/funcs.dir/functions/alpha_1_1_taylor.cpp.o -c /home/lastsean/CLionProjects/Masterproject/functions/alpha_1_1_taylor.cpp
+
+CMakeFiles/funcs.dir/functions/alpha_1_1_taylor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/funcs.dir/functions/alpha_1_1_taylor.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lastsean/CLionProjects/Masterproject/functions/alpha_1_1_taylor.cpp > CMakeFiles/funcs.dir/functions/alpha_1_1_taylor.cpp.i
+
+CMakeFiles/funcs.dir/functions/alpha_1_1_taylor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/funcs.dir/functions/alpha_1_1_taylor.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lastsean/CLionProjects/Masterproject/functions/alpha_1_1_taylor.cpp -o CMakeFiles/funcs.dir/functions/alpha_1_1_taylor.cpp.s
+
 CMakeFiles/funcs.dir/functions/alpha_2_1.cpp.o: CMakeFiles/funcs.dir/flags.make
 CMakeFiles/funcs.dir/functions/alpha_2_1.cpp.o: ../../../functions/alpha_2_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/funcs.dir/functions/alpha_2_1.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/funcs.dir/functions/alpha_2_1.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/funcs.dir/functions/alpha_2_1.cpp.o -c /home/lastsean/CLionProjects/Masterproject/functions/alpha_2_1.cpp
 
 CMakeFiles/funcs.dir/functions/alpha_2_1.cpp.i: cmake_force
@@ -339,7 +391,7 @@ CMakeFiles/funcs.dir/functions/alpha_2_1.cpp.s: cmake_force
 
 CMakeFiles/funcs.dir/functions/alpha_2_2.cpp.o: CMakeFiles/funcs.dir/flags.make
 CMakeFiles/funcs.dir/functions/alpha_2_2.cpp.o: ../../../functions/alpha_2_2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/funcs.dir/functions/alpha_2_2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/funcs.dir/functions/alpha_2_2.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/funcs.dir/functions/alpha_2_2.cpp.o -c /home/lastsean/CLionProjects/Masterproject/functions/alpha_2_2.cpp
 
 CMakeFiles/funcs.dir/functions/alpha_2_2.cpp.i: cmake_force
@@ -352,7 +404,7 @@ CMakeFiles/funcs.dir/functions/alpha_2_2.cpp.s: cmake_force
 
 CMakeFiles/funcs.dir/functions/alpha_3_1.cpp.o: CMakeFiles/funcs.dir/flags.make
 CMakeFiles/funcs.dir/functions/alpha_3_1.cpp.o: ../../../functions/alpha_3_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/funcs.dir/functions/alpha_3_1.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/funcs.dir/functions/alpha_3_1.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/funcs.dir/functions/alpha_3_1.cpp.o -c /home/lastsean/CLionProjects/Masterproject/functions/alpha_3_1.cpp
 
 CMakeFiles/funcs.dir/functions/alpha_3_1.cpp.i: cmake_force
@@ -365,7 +417,7 @@ CMakeFiles/funcs.dir/functions/alpha_3_1.cpp.s: cmake_force
 
 CMakeFiles/funcs.dir/functions/alpha_3_2.cpp.o: CMakeFiles/funcs.dir/flags.make
 CMakeFiles/funcs.dir/functions/alpha_3_2.cpp.o: ../../../functions/alpha_3_2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/funcs.dir/functions/alpha_3_2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/funcs.dir/functions/alpha_3_2.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/funcs.dir/functions/alpha_3_2.cpp.o -c /home/lastsean/CLionProjects/Masterproject/functions/alpha_3_2.cpp
 
 CMakeFiles/funcs.dir/functions/alpha_3_2.cpp.i: cmake_force
@@ -378,7 +430,7 @@ CMakeFiles/funcs.dir/functions/alpha_3_2.cpp.s: cmake_force
 
 CMakeFiles/funcs.dir/functions/alpha_3_3.cpp.o: CMakeFiles/funcs.dir/flags.make
 CMakeFiles/funcs.dir/functions/alpha_3_3.cpp.o: ../../../functions/alpha_3_3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/funcs.dir/functions/alpha_3_3.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/funcs.dir/functions/alpha_3_3.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/funcs.dir/functions/alpha_3_3.cpp.o -c /home/lastsean/CLionProjects/Masterproject/functions/alpha_3_3.cpp
 
 CMakeFiles/funcs.dir/functions/alpha_3_3.cpp.i: cmake_force
@@ -391,7 +443,7 @@ CMakeFiles/funcs.dir/functions/alpha_3_3.cpp.s: cmake_force
 
 CMakeFiles/funcs.dir/functions/wcrl_1_1.cpp.o: CMakeFiles/funcs.dir/flags.make
 CMakeFiles/funcs.dir/functions/wcrl_1_1.cpp.o: ../../../functions/wcrl_1_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/funcs.dir/functions/wcrl_1_1.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/funcs.dir/functions/wcrl_1_1.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/funcs.dir/functions/wcrl_1_1.cpp.o -c /home/lastsean/CLionProjects/Masterproject/functions/wcrl_1_1.cpp
 
 CMakeFiles/funcs.dir/functions/wcrl_1_1.cpp.i: cmake_force
@@ -402,9 +454,22 @@ CMakeFiles/funcs.dir/functions/wcrl_1_1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/funcs.dir/functions/wcrl_1_1.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lastsean/CLionProjects/Masterproject/functions/wcrl_1_1.cpp -o CMakeFiles/funcs.dir/functions/wcrl_1_1.cpp.s
 
+CMakeFiles/funcs.dir/functions/wcrl_1_1_taylor.cpp.o: CMakeFiles/funcs.dir/flags.make
+CMakeFiles/funcs.dir/functions/wcrl_1_1_taylor.cpp.o: ../../../functions/wcrl_1_1_taylor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/funcs.dir/functions/wcrl_1_1_taylor.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/funcs.dir/functions/wcrl_1_1_taylor.cpp.o -c /home/lastsean/CLionProjects/Masterproject/functions/wcrl_1_1_taylor.cpp
+
+CMakeFiles/funcs.dir/functions/wcrl_1_1_taylor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/funcs.dir/functions/wcrl_1_1_taylor.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lastsean/CLionProjects/Masterproject/functions/wcrl_1_1_taylor.cpp > CMakeFiles/funcs.dir/functions/wcrl_1_1_taylor.cpp.i
+
+CMakeFiles/funcs.dir/functions/wcrl_1_1_taylor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/funcs.dir/functions/wcrl_1_1_taylor.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lastsean/CLionProjects/Masterproject/functions/wcrl_1_1_taylor.cpp -o CMakeFiles/funcs.dir/functions/wcrl_1_1_taylor.cpp.s
+
 CMakeFiles/funcs.dir/functions/wcrl_2_1.cpp.o: CMakeFiles/funcs.dir/flags.make
 CMakeFiles/funcs.dir/functions/wcrl_2_1.cpp.o: ../../../functions/wcrl_2_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/funcs.dir/functions/wcrl_2_1.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/funcs.dir/functions/wcrl_2_1.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/funcs.dir/functions/wcrl_2_1.cpp.o -c /home/lastsean/CLionProjects/Masterproject/functions/wcrl_2_1.cpp
 
 CMakeFiles/funcs.dir/functions/wcrl_2_1.cpp.i: cmake_force
@@ -417,7 +482,7 @@ CMakeFiles/funcs.dir/functions/wcrl_2_1.cpp.s: cmake_force
 
 CMakeFiles/funcs.dir/functions/wcrl_2_2.cpp.o: CMakeFiles/funcs.dir/flags.make
 CMakeFiles/funcs.dir/functions/wcrl_2_2.cpp.o: ../../../functions/wcrl_2_2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/funcs.dir/functions/wcrl_2_2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/funcs.dir/functions/wcrl_2_2.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/funcs.dir/functions/wcrl_2_2.cpp.o -c /home/lastsean/CLionProjects/Masterproject/functions/wcrl_2_2.cpp
 
 CMakeFiles/funcs.dir/functions/wcrl_2_2.cpp.i: cmake_force
@@ -430,7 +495,7 @@ CMakeFiles/funcs.dir/functions/wcrl_2_2.cpp.s: cmake_force
 
 CMakeFiles/funcs.dir/functions/wcrl_3_1.cpp.o: CMakeFiles/funcs.dir/flags.make
 CMakeFiles/funcs.dir/functions/wcrl_3_1.cpp.o: ../../../functions/wcrl_3_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/funcs.dir/functions/wcrl_3_1.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/funcs.dir/functions/wcrl_3_1.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/funcs.dir/functions/wcrl_3_1.cpp.o -c /home/lastsean/CLionProjects/Masterproject/functions/wcrl_3_1.cpp
 
 CMakeFiles/funcs.dir/functions/wcrl_3_1.cpp.i: cmake_force
@@ -443,7 +508,7 @@ CMakeFiles/funcs.dir/functions/wcrl_3_1.cpp.s: cmake_force
 
 CMakeFiles/funcs.dir/functions/wcrl_3_2.cpp.o: CMakeFiles/funcs.dir/flags.make
 CMakeFiles/funcs.dir/functions/wcrl_3_2.cpp.o: ../../../functions/wcrl_3_2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/funcs.dir/functions/wcrl_3_2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/funcs.dir/functions/wcrl_3_2.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/funcs.dir/functions/wcrl_3_2.cpp.o -c /home/lastsean/CLionProjects/Masterproject/functions/wcrl_3_2.cpp
 
 CMakeFiles/funcs.dir/functions/wcrl_3_2.cpp.i: cmake_force
@@ -456,7 +521,7 @@ CMakeFiles/funcs.dir/functions/wcrl_3_2.cpp.s: cmake_force
 
 CMakeFiles/funcs.dir/functions/wcrl_3_3.cpp.o: CMakeFiles/funcs.dir/flags.make
 CMakeFiles/funcs.dir/functions/wcrl_3_3.cpp.o: ../../../functions/wcrl_3_3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/funcs.dir/functions/wcrl_3_3.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/funcs.dir/functions/wcrl_3_3.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/funcs.dir/functions/wcrl_3_3.cpp.o -c /home/lastsean/CLionProjects/Masterproject/functions/wcrl_3_3.cpp
 
 CMakeFiles/funcs.dir/functions/wcrl_3_3.cpp.i: cmake_force
@@ -470,30 +535,35 @@ CMakeFiles/funcs.dir/functions/wcrl_3_3.cpp.s: cmake_force
 # Object files for target funcs
 funcs_OBJECTS = \
 "CMakeFiles/funcs.dir/functions/JR_1_1.cpp.o" \
+"CMakeFiles/funcs.dir/functions/JR_1_1_taylor.cpp.o" \
 "CMakeFiles/funcs.dir/functions/JR_2_1.cpp.o" \
 "CMakeFiles/funcs.dir/functions/JR_2_2.cpp.o" \
 "CMakeFiles/funcs.dir/functions/JR_3_1.cpp.o" \
 "CMakeFiles/funcs.dir/functions/JR_3_2.cpp.o" \
 "CMakeFiles/funcs.dir/functions/JR_3_3.cpp.o" \
 "CMakeFiles/funcs.dir/functions/JT_1_1.cpp.o" \
+"CMakeFiles/funcs.dir/functions/JT_1_1_taylor.cpp.o" \
 "CMakeFiles/funcs.dir/functions/JT_2_1.cpp.o" \
 "CMakeFiles/funcs.dir/functions/JT_2_2.cpp.o" \
 "CMakeFiles/funcs.dir/functions/JT_3_1.cpp.o" \
 "CMakeFiles/funcs.dir/functions/JT_3_2.cpp.o" \
 "CMakeFiles/funcs.dir/functions/JT_3_3.cpp.o" \
 "CMakeFiles/funcs.dir/functions/a_1_1.cpp.o" \
+"CMakeFiles/funcs.dir/functions/a_1_1_taylor.cpp.o" \
 "CMakeFiles/funcs.dir/functions/a_2_1.cpp.o" \
 "CMakeFiles/funcs.dir/functions/a_2_2.cpp.o" \
 "CMakeFiles/funcs.dir/functions/a_3_1.cpp.o" \
 "CMakeFiles/funcs.dir/functions/a_3_2.cpp.o" \
 "CMakeFiles/funcs.dir/functions/a_3_3.cpp.o" \
 "CMakeFiles/funcs.dir/functions/alpha_1_1.cpp.o" \
+"CMakeFiles/funcs.dir/functions/alpha_1_1_taylor.cpp.o" \
 "CMakeFiles/funcs.dir/functions/alpha_2_1.cpp.o" \
 "CMakeFiles/funcs.dir/functions/alpha_2_2.cpp.o" \
 "CMakeFiles/funcs.dir/functions/alpha_3_1.cpp.o" \
 "CMakeFiles/funcs.dir/functions/alpha_3_2.cpp.o" \
 "CMakeFiles/funcs.dir/functions/alpha_3_3.cpp.o" \
 "CMakeFiles/funcs.dir/functions/wcrl_1_1.cpp.o" \
+"CMakeFiles/funcs.dir/functions/wcrl_1_1_taylor.cpp.o" \
 "CMakeFiles/funcs.dir/functions/wcrl_2_1.cpp.o" \
 "CMakeFiles/funcs.dir/functions/wcrl_2_2.cpp.o" \
 "CMakeFiles/funcs.dir/functions/wcrl_3_1.cpp.o" \
@@ -504,30 +574,35 @@ funcs_OBJECTS = \
 funcs_EXTERNAL_OBJECTS =
 
 libfuncs.a: CMakeFiles/funcs.dir/functions/JR_1_1.cpp.o
+libfuncs.a: CMakeFiles/funcs.dir/functions/JR_1_1_taylor.cpp.o
 libfuncs.a: CMakeFiles/funcs.dir/functions/JR_2_1.cpp.o
 libfuncs.a: CMakeFiles/funcs.dir/functions/JR_2_2.cpp.o
 libfuncs.a: CMakeFiles/funcs.dir/functions/JR_3_1.cpp.o
 libfuncs.a: CMakeFiles/funcs.dir/functions/JR_3_2.cpp.o
 libfuncs.a: CMakeFiles/funcs.dir/functions/JR_3_3.cpp.o
 libfuncs.a: CMakeFiles/funcs.dir/functions/JT_1_1.cpp.o
+libfuncs.a: CMakeFiles/funcs.dir/functions/JT_1_1_taylor.cpp.o
 libfuncs.a: CMakeFiles/funcs.dir/functions/JT_2_1.cpp.o
 libfuncs.a: CMakeFiles/funcs.dir/functions/JT_2_2.cpp.o
 libfuncs.a: CMakeFiles/funcs.dir/functions/JT_3_1.cpp.o
 libfuncs.a: CMakeFiles/funcs.dir/functions/JT_3_2.cpp.o
 libfuncs.a: CMakeFiles/funcs.dir/functions/JT_3_3.cpp.o
 libfuncs.a: CMakeFiles/funcs.dir/functions/a_1_1.cpp.o
+libfuncs.a: CMakeFiles/funcs.dir/functions/a_1_1_taylor.cpp.o
 libfuncs.a: CMakeFiles/funcs.dir/functions/a_2_1.cpp.o
 libfuncs.a: CMakeFiles/funcs.dir/functions/a_2_2.cpp.o
 libfuncs.a: CMakeFiles/funcs.dir/functions/a_3_1.cpp.o
 libfuncs.a: CMakeFiles/funcs.dir/functions/a_3_2.cpp.o
 libfuncs.a: CMakeFiles/funcs.dir/functions/a_3_3.cpp.o
 libfuncs.a: CMakeFiles/funcs.dir/functions/alpha_1_1.cpp.o
+libfuncs.a: CMakeFiles/funcs.dir/functions/alpha_1_1_taylor.cpp.o
 libfuncs.a: CMakeFiles/funcs.dir/functions/alpha_2_1.cpp.o
 libfuncs.a: CMakeFiles/funcs.dir/functions/alpha_2_2.cpp.o
 libfuncs.a: CMakeFiles/funcs.dir/functions/alpha_3_1.cpp.o
 libfuncs.a: CMakeFiles/funcs.dir/functions/alpha_3_2.cpp.o
 libfuncs.a: CMakeFiles/funcs.dir/functions/alpha_3_3.cpp.o
 libfuncs.a: CMakeFiles/funcs.dir/functions/wcrl_1_1.cpp.o
+libfuncs.a: CMakeFiles/funcs.dir/functions/wcrl_1_1_taylor.cpp.o
 libfuncs.a: CMakeFiles/funcs.dir/functions/wcrl_2_1.cpp.o
 libfuncs.a: CMakeFiles/funcs.dir/functions/wcrl_2_2.cpp.o
 libfuncs.a: CMakeFiles/funcs.dir/functions/wcrl_3_1.cpp.o
@@ -535,7 +610,7 @@ libfuncs.a: CMakeFiles/funcs.dir/functions/wcrl_3_2.cpp.o
 libfuncs.a: CMakeFiles/funcs.dir/functions/wcrl_3_3.cpp.o
 libfuncs.a: CMakeFiles/funcs.dir/build.make
 libfuncs.a: CMakeFiles/funcs.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Linking CXX static library libfuncs.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lastsean/CLionProjects/Masterproject/build/temp.linux-x86_64-3.10/motionlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Linking CXX static library libfuncs.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/funcs.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/funcs.dir/link.txt --verbose=$(VERBOSE)
 

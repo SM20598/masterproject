@@ -264,6 +264,8 @@ string_view
 
 /home/lastsean/CLionProjects/Masterproject/functions/JR_1_1.h
 
+/home/lastsean/CLionProjects/Masterproject/functions/JR_1_1_taylor.h
+
 /home/lastsean/CLionProjects/Masterproject/functions/JR_2_1.h
 
 /home/lastsean/CLionProjects/Masterproject/functions/JR_2_2.h
@@ -275,6 +277,8 @@ string_view
 /home/lastsean/CLionProjects/Masterproject/functions/JR_3_3.h
 
 /home/lastsean/CLionProjects/Masterproject/functions/JT_1_1.h
+
+/home/lastsean/CLionProjects/Masterproject/functions/JT_1_1_taylor.h
 
 /home/lastsean/CLionProjects/Masterproject/functions/JT_2_1.h
 
@@ -288,6 +292,8 @@ string_view
 
 /home/lastsean/CLionProjects/Masterproject/functions/a_1_1.h
 
+/home/lastsean/CLionProjects/Masterproject/functions/a_1_1_taylor.h
+
 /home/lastsean/CLionProjects/Masterproject/functions/a_2_1.h
 
 /home/lastsean/CLionProjects/Masterproject/functions/a_2_2.h
@@ -300,6 +306,8 @@ string_view
 
 /home/lastsean/CLionProjects/Masterproject/functions/alpha_1_1.h
 
+/home/lastsean/CLionProjects/Masterproject/functions/alpha_1_1_taylor.h
+
 /home/lastsean/CLionProjects/Masterproject/functions/alpha_2_1.h
 
 /home/lastsean/CLionProjects/Masterproject/functions/alpha_2_2.h
@@ -311,6 +319,8 @@ string_view
 /home/lastsean/CLionProjects/Masterproject/functions/alpha_3_3.h
 
 /home/lastsean/CLionProjects/Masterproject/functions/wcrl_1_1.h
+
+/home/lastsean/CLionProjects/Masterproject/functions/wcrl_1_1_taylor.h
 
 /home/lastsean/CLionProjects/Masterproject/functions/wcrl_2_1.h
 
@@ -341,6 +351,8 @@ iostream
 /home/lastsean/CLionProjects/Masterproject/functions/a_3_2.h
 ../functions/a_3_3.h
 /home/lastsean/CLionProjects/Masterproject/functions/a_3_3.h
+../functions/a_1_1_taylor.h
+/home/lastsean/CLionProjects/Masterproject/functions/a_1_1_taylor.h
 ../functions/alpha_1_1.h
 /home/lastsean/CLionProjects/Masterproject/functions/alpha_1_1.h
 ../functions/alpha_2_1.h
@@ -353,6 +365,8 @@ iostream
 /home/lastsean/CLionProjects/Masterproject/functions/alpha_3_2.h
 ../functions/alpha_3_3.h
 /home/lastsean/CLionProjects/Masterproject/functions/alpha_3_3.h
+../functions/alpha_1_1_taylor.h
+/home/lastsean/CLionProjects/Masterproject/functions/alpha_1_1_taylor.h
 ../functions/JR_1_1.h
 /home/lastsean/CLionProjects/Masterproject/functions/JR_1_1.h
 ../functions/JR_2_1.h
@@ -365,6 +379,8 @@ iostream
 /home/lastsean/CLionProjects/Masterproject/functions/JR_3_2.h
 ../functions/JR_3_3.h
 /home/lastsean/CLionProjects/Masterproject/functions/JR_3_3.h
+../functions/JR_1_1_taylor.h
+/home/lastsean/CLionProjects/Masterproject/functions/JR_1_1_taylor.h
 ../functions/JT_1_1.h
 /home/lastsean/CLionProjects/Masterproject/functions/JT_1_1.h
 ../functions/JT_2_1.h
@@ -377,6 +393,8 @@ iostream
 /home/lastsean/CLionProjects/Masterproject/functions/JT_3_2.h
 ../functions/JT_3_3.h
 /home/lastsean/CLionProjects/Masterproject/functions/JT_3_3.h
+../functions/JT_1_1_taylor.h
+/home/lastsean/CLionProjects/Masterproject/functions/JT_1_1_taylor.h
 ../functions/wcrl_1_1.h
 /home/lastsean/CLionProjects/Masterproject/functions/wcrl_1_1.h
 ../functions/wcrl_2_1.h
@@ -389,6 +407,8 @@ iostream
 /home/lastsean/CLionProjects/Masterproject/functions/wcrl_3_2.h
 ../functions/wcrl_3_3.h
 /home/lastsean/CLionProjects/Masterproject/functions/wcrl_3_3.h
+../functions/wcrl_1_1_taylor.h
+/home/lastsean/CLionProjects/Masterproject/functions/wcrl_1_1_taylor.h
 
 /usr/local/include/python3.6m/Python.h
 patchlevel.h

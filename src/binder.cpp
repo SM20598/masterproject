@@ -9,6 +9,7 @@
 #include "../functions/a_3_1.h"
 #include "../functions/a_3_2.h"
 #include "../functions/a_3_3.h"
+#include "../functions/a_1_1_taylor.h"
 
 // local rotational acceleration
 #include "../functions/alpha_1_1.h"
@@ -17,6 +18,7 @@
 #include "../functions/alpha_3_1.h"
 #include "../functions/alpha_3_2.h"
 #include "../functions/alpha_3_3.h"
+#include "../functions/alpha_1_1_taylor.h"
 
 // rotational Jacobi
 #include "../functions/JR_1_1.h"
@@ -25,6 +27,7 @@
 #include "../functions/JR_3_1.h"
 #include "../functions/JR_3_2.h"
 #include "../functions/JR_3_3.h"
+#include "../functions/JR_1_1_taylor.h"
 
 // translational Jacobi
 #include "../functions/JT_1_1.h"
@@ -33,6 +36,7 @@
 #include "../functions/JT_3_1.h"
 #include "../functions/JT_3_2.h"
 #include "../functions/JT_3_3.h"
+#include "../functions/JT_1_1_taylor.h"
 
 // rotational velocity
 #include "../functions/wcrl_1_1.h"
@@ -41,6 +45,7 @@
 #include "../functions/wcrl_3_1.h"
 #include "../functions/wcrl_3_2.h"
 #include "../functions/wcrl_3_3.h"
+#include "../functions/wcrl_1_1_taylor.h"
 
 
 #define STRINGIFY(x) #x
@@ -48,7 +53,7 @@
 
 namespace  py = pybind11;
 
-py::array_t<double> trans_acc_loc(const py::array_t<double>& state, double len, int cur_seg_num){
+py::array_t<double> trans_acc_loc(const py::array_t<double>& state, double len, int cur_seg_num, bool use_taylor){
 
     // extract state info
     py::buffer_info in_info = state.request();
@@ -70,7 +75,7 @@ py::array_t<double> trans_acc_loc(const py::array_t<double>& state, double len, 
     // call function depending on total number of segments and current segment
     switch (tot_num_seg) {
         case 1:
-            a_1_1(len, conv_state, a_); break;
+            (use_taylor)? a_1_1_taylor(len, conv_state, a_) : a_1_1(len, conv_state, a_); break;
 
         case 2:
             switch(cur_seg_num) {
@@ -103,7 +108,7 @@ py::array_t<double> trans_acc_loc(const py::array_t<double>& state, double len, 
     return result;
 }
 
-py::array_t<double> rot_acc_loc(const py::array_t<double>& state, double len, int cur_seg_num){
+py::array_t<double> rot_acc_loc(const py::array_t<double>& state, double len, int cur_seg_num, bool use_taylor){
 
     // extract state info
     py::buffer_info in_info = state.request();
@@ -125,7 +130,7 @@ py::array_t<double> rot_acc_loc(const py::array_t<double>& state, double len, in
     // call function depending on total number of segments and current segment
     switch (tot_num_seg) {
         case 1:
-            alpha_1_1(len, conv_state, alpha); break;
+            (use_taylor)? alpha_1_1_taylor(len, conv_state, alpha) : alpha_1_1(len, conv_state, alpha); break;
 
         case 2:
             switch(cur_seg_num) {
@@ -158,7 +163,7 @@ py::array_t<double> rot_acc_loc(const py::array_t<double>& state, double len, in
     return result;
 }
 
-py::array_t<double> rot_jac(const py::array_t<double>& state, double len, int cur_seg_num){
+py::array_t<double> rot_jac(const py::array_t<double>& state, double len, int cur_seg_num, bool use_taylor){
 
     // extract state info
     py::buffer_info in_info = state.request();
@@ -180,7 +185,7 @@ py::array_t<double> rot_jac(const py::array_t<double>& state, double len, int cu
     // call function depending on total number of segments and current segment
     switch (tot_num_seg) {
         case 1:
-            JR_1_1(len, conv_state, jacobi_R); break;
+            (use_taylor) ? JR_1_1_taylor(len, conv_state, jacobi_R) : JR_1_1(len, conv_state, jacobi_R); break;
 
         case 2:
             switch(cur_seg_num) {
@@ -213,7 +218,7 @@ py::array_t<double> rot_jac(const py::array_t<double>& state, double len, int cu
     return result;
 }
 
-py::array_t<double> trans_jac(const py::array_t<double>& state, double len, int cur_seg_num){
+py::array_t<double> trans_jac(const py::array_t<double>& state, double len, int cur_seg_num, bool use_taylor){
 
     // extract state info
     py::buffer_info in_info = state.request();
@@ -235,7 +240,7 @@ py::array_t<double> trans_jac(const py::array_t<double>& state, double len, int 
     // call function depending on total number of segments and current segment
     switch (tot_num_seg) {
         case 1:
-            JT_1_1(len, conv_state, jacobi_T); break;
+            (use_taylor) ? JT_1_1_taylor(len, conv_state, jacobi_T) : JT_1_1(len, conv_state, jacobi_T); break;
 
         case 2:
             switch(cur_seg_num) {
@@ -268,7 +273,7 @@ py::array_t<double> trans_jac(const py::array_t<double>& state, double len, int 
     return result;
 }
 
-py::array_t<double> rot_vel(const py::array_t<double>& state, double len, int cur_seg_num){
+py::array_t<double> rot_vel(const py::array_t<double>& state, double len, int cur_seg_num, bool use_taylor){
 
     // extract state info
     py::buffer_info in_info = state.request();
@@ -290,7 +295,7 @@ py::array_t<double> rot_vel(const py::array_t<double>& state, double len, int cu
     // call function depending on total number of segments and current segment
     switch (tot_num_seg) {
         case 1:
-            wcrl_1_1(len, conv_state, wcrl); break;
+            (use_taylor) ? wcrl_1_1_taylor(len, conv_state, wcrl) : wcrl_1_1(len, conv_state, wcrl); break;
 
         case 2:
             switch(cur_seg_num) {

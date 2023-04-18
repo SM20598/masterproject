@@ -4,6 +4,9 @@
 CMakeFiles/funcs.dir/functions/JR_1_1.cpp.o: ../../../functions/JR_1_1.cpp
 CMakeFiles/funcs.dir/functions/JR_1_1.cpp.o: ../../../functions/JR_1_1.h
 
+CMakeFiles/funcs.dir/functions/JR_1_1_taylor.cpp.o: ../../../functions/JR_1_1_taylor.cpp
+CMakeFiles/funcs.dir/functions/JR_1_1_taylor.cpp.o: ../../../functions/JR_1_1_taylor.h
+
 CMakeFiles/funcs.dir/functions/JR_2_1.cpp.o: ../../../functions/JR_2_1.cpp
 CMakeFiles/funcs.dir/functions/JR_2_1.cpp.o: ../../../functions/JR_2_1.h
 
@@ -21,6 +24,9 @@ CMakeFiles/funcs.dir/functions/JR_3_3.cpp.o: ../../../functions/JR_3_3.h
 
 CMakeFiles/funcs.dir/functions/JT_1_1.cpp.o: ../../../functions/JT_1_1.cpp
 CMakeFiles/funcs.dir/functions/JT_1_1.cpp.o: ../../../functions/JT_1_1.h
+
+CMakeFiles/funcs.dir/functions/JT_1_1_taylor.cpp.o: ../../../functions/JT_1_1_taylor.cpp
+CMakeFiles/funcs.dir/functions/JT_1_1_taylor.cpp.o: ../../../functions/JT_1_1_taylor.h
 
 CMakeFiles/funcs.dir/functions/JT_2_1.cpp.o: ../../../functions/JT_2_1.cpp
 CMakeFiles/funcs.dir/functions/JT_2_1.cpp.o: ../../../functions/JT_2_1.h
@@ -40,6 +46,9 @@ CMakeFiles/funcs.dir/functions/JT_3_3.cpp.o: ../../../functions/JT_3_3.h
 CMakeFiles/funcs.dir/functions/a_1_1.cpp.o: ../../../functions/a_1_1.cpp
 CMakeFiles/funcs.dir/functions/a_1_1.cpp.o: ../../../functions/a_1_1.h
 
+CMakeFiles/funcs.dir/functions/a_1_1_taylor.cpp.o: ../../../functions/a_1_1_taylor.cpp
+CMakeFiles/funcs.dir/functions/a_1_1_taylor.cpp.o: ../../../functions/a_1_1_taylor.h
+
 CMakeFiles/funcs.dir/functions/a_2_1.cpp.o: ../../../functions/a_2_1.cpp
 CMakeFiles/funcs.dir/functions/a_2_1.cpp.o: ../../../functions/a_2_1.h
 
@@ -58,6 +67,9 @@ CMakeFiles/funcs.dir/functions/a_3_3.cpp.o: ../../../functions/a_3_3.h
 CMakeFiles/funcs.dir/functions/alpha_1_1.cpp.o: ../../../functions/alpha_1_1.cpp
 CMakeFiles/funcs.dir/functions/alpha_1_1.cpp.o: ../../../functions/alpha_1_1.h
 
+CMakeFiles/funcs.dir/functions/alpha_1_1_taylor.cpp.o: ../../../functions/alpha_1_1_taylor.cpp
+CMakeFiles/funcs.dir/functions/alpha_1_1_taylor.cpp.o: ../../../functions/alpha_1_1_taylor.h
+
 CMakeFiles/funcs.dir/functions/alpha_2_1.cpp.o: ../../../functions/alpha_2_1.cpp
 CMakeFiles/funcs.dir/functions/alpha_2_1.cpp.o: ../../../functions/alpha_2_1.h
 
@@ -75,6 +87,9 @@ CMakeFiles/funcs.dir/functions/alpha_3_3.cpp.o: ../../../functions/alpha_3_3.h
 
 CMakeFiles/funcs.dir/functions/wcrl_1_1.cpp.o: ../../../functions/wcrl_1_1.cpp
 CMakeFiles/funcs.dir/functions/wcrl_1_1.cpp.o: ../../../functions/wcrl_1_1.h
+
+CMakeFiles/funcs.dir/functions/wcrl_1_1_taylor.cpp.o: ../../../functions/wcrl_1_1_taylor.cpp
+CMakeFiles/funcs.dir/functions/wcrl_1_1_taylor.cpp.o: ../../../functions/wcrl_1_1_taylor.h
 
 CMakeFiles/funcs.dir/functions/wcrl_2_1.cpp.o: ../../../functions/wcrl_2_1.cpp
 CMakeFiles/funcs.dir/functions/wcrl_2_1.cpp.o: ../../../functions/wcrl_2_1.h

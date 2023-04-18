@@ -183,6 +183,33 @@ functions/JR_1_1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/JR_1_1.cpp.s
 .PHONY : functions/JR_1_1.cpp.s
 
+functions/JR_1_1_taylor.o: functions/JR_1_1_taylor.cpp.o
+
+.PHONY : functions/JR_1_1_taylor.o
+
+# target to build an object file
+functions/JR_1_1_taylor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/JR_1_1_taylor.cpp.o
+.PHONY : functions/JR_1_1_taylor.cpp.o
+
+functions/JR_1_1_taylor.i: functions/JR_1_1_taylor.cpp.i
+
+.PHONY : functions/JR_1_1_taylor.i
+
+# target to preprocess a source file
+functions/JR_1_1_taylor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/JR_1_1_taylor.cpp.i
+.PHONY : functions/JR_1_1_taylor.cpp.i
+
+functions/JR_1_1_taylor.s: functions/JR_1_1_taylor.cpp.s
+
+.PHONY : functions/JR_1_1_taylor.s
+
+# target to generate assembly for a file
+functions/JR_1_1_taylor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/JR_1_1_taylor.cpp.s
+.PHONY : functions/JR_1_1_taylor.cpp.s
+
 functions/JR_2_1.o: functions/JR_2_1.cpp.o
 
 .PHONY : functions/JR_2_1.o
@@ -344,6 +371,33 @@ functions/JT_1_1.s: functions/JT_1_1.cpp.s
 functions/JT_1_1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/JT_1_1.cpp.s
 .PHONY : functions/JT_1_1.cpp.s
+
+functions/JT_1_1_taylor.o: functions/JT_1_1_taylor.cpp.o
+
+.PHONY : functions/JT_1_1_taylor.o
+
+# target to build an object file
+functions/JT_1_1_taylor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/JT_1_1_taylor.cpp.o
+.PHONY : functions/JT_1_1_taylor.cpp.o
+
+functions/JT_1_1_taylor.i: functions/JT_1_1_taylor.cpp.i
+
+.PHONY : functions/JT_1_1_taylor.i
+
+# target to preprocess a source file
+functions/JT_1_1_taylor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/JT_1_1_taylor.cpp.i
+.PHONY : functions/JT_1_1_taylor.cpp.i
+
+functions/JT_1_1_taylor.s: functions/JT_1_1_taylor.cpp.s
+
+.PHONY : functions/JT_1_1_taylor.s
+
+# target to generate assembly for a file
+functions/JT_1_1_taylor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/JT_1_1_taylor.cpp.s
+.PHONY : functions/JT_1_1_taylor.cpp.s
 
 functions/JT_2_1.o: functions/JT_2_1.cpp.o
 
@@ -507,6 +561,33 @@ functions/a_1_1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/a_1_1.cpp.s
 .PHONY : functions/a_1_1.cpp.s
 
+functions/a_1_1_taylor.o: functions/a_1_1_taylor.cpp.o
+
+.PHONY : functions/a_1_1_taylor.o
+
+# target to build an object file
+functions/a_1_1_taylor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/a_1_1_taylor.cpp.o
+.PHONY : functions/a_1_1_taylor.cpp.o
+
+functions/a_1_1_taylor.i: functions/a_1_1_taylor.cpp.i
+
+.PHONY : functions/a_1_1_taylor.i
+
+# target to preprocess a source file
+functions/a_1_1_taylor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/a_1_1_taylor.cpp.i
+.PHONY : functions/a_1_1_taylor.cpp.i
+
+functions/a_1_1_taylor.s: functions/a_1_1_taylor.cpp.s
+
+.PHONY : functions/a_1_1_taylor.s
+
+# target to generate assembly for a file
+functions/a_1_1_taylor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/a_1_1_taylor.cpp.s
+.PHONY : functions/a_1_1_taylor.cpp.s
+
 functions/a_2_1.o: functions/a_2_1.cpp.o
 
 .PHONY : functions/a_2_1.o
@@ -669,6 +750,33 @@ functions/alpha_1_1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/alpha_1_1.cpp.s
 .PHONY : functions/alpha_1_1.cpp.s
 
+functions/alpha_1_1_taylor.o: functions/alpha_1_1_taylor.cpp.o
+
+.PHONY : functions/alpha_1_1_taylor.o
+
+# target to build an object file
+functions/alpha_1_1_taylor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/alpha_1_1_taylor.cpp.o
+.PHONY : functions/alpha_1_1_taylor.cpp.o
+
+functions/alpha_1_1_taylor.i: functions/alpha_1_1_taylor.cpp.i
+
+.PHONY : functions/alpha_1_1_taylor.i
+
+# target to preprocess a source file
+functions/alpha_1_1_taylor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/alpha_1_1_taylor.cpp.i
+.PHONY : functions/alpha_1_1_taylor.cpp.i
+
+functions/alpha_1_1_taylor.s: functions/alpha_1_1_taylor.cpp.s
+
+.PHONY : functions/alpha_1_1_taylor.s
+
+# target to generate assembly for a file
+functions/alpha_1_1_taylor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/alpha_1_1_taylor.cpp.s
+.PHONY : functions/alpha_1_1_taylor.cpp.s
+
 functions/alpha_2_1.o: functions/alpha_2_1.cpp.o
 
 .PHONY : functions/alpha_2_1.o
@@ -830,6 +938,33 @@ functions/wcrl_1_1.s: functions/wcrl_1_1.cpp.s
 functions/wcrl_1_1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/wcrl_1_1.cpp.s
 .PHONY : functions/wcrl_1_1.cpp.s
+
+functions/wcrl_1_1_taylor.o: functions/wcrl_1_1_taylor.cpp.o
+
+.PHONY : functions/wcrl_1_1_taylor.o
+
+# target to build an object file
+functions/wcrl_1_1_taylor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/wcrl_1_1_taylor.cpp.o
+.PHONY : functions/wcrl_1_1_taylor.cpp.o
+
+functions/wcrl_1_1_taylor.i: functions/wcrl_1_1_taylor.cpp.i
+
+.PHONY : functions/wcrl_1_1_taylor.i
+
+# target to preprocess a source file
+functions/wcrl_1_1_taylor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/wcrl_1_1_taylor.cpp.i
+.PHONY : functions/wcrl_1_1_taylor.cpp.i
+
+functions/wcrl_1_1_taylor.s: functions/wcrl_1_1_taylor.cpp.s
+
+.PHONY : functions/wcrl_1_1_taylor.s
+
+# target to generate assembly for a file
+functions/wcrl_1_1_taylor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/wcrl_1_1_taylor.cpp.s
+.PHONY : functions/wcrl_1_1_taylor.cpp.s
 
 functions/wcrl_2_1.o: functions/wcrl_2_1.cpp.o
 
@@ -1006,6 +1141,9 @@ help:
 	@echo "... functions/JR_1_1.o"
 	@echo "... functions/JR_1_1.i"
 	@echo "... functions/JR_1_1.s"
+	@echo "... functions/JR_1_1_taylor.o"
+	@echo "... functions/JR_1_1_taylor.i"
+	@echo "... functions/JR_1_1_taylor.s"
 	@echo "... functions/JR_2_1.o"
 	@echo "... functions/JR_2_1.i"
 	@echo "... functions/JR_2_1.s"
@@ -1024,6 +1162,9 @@ help:
 	@echo "... functions/JT_1_1.o"
 	@echo "... functions/JT_1_1.i"
 	@echo "... functions/JT_1_1.s"
+	@echo "... functions/JT_1_1_taylor.o"
+	@echo "... functions/JT_1_1_taylor.i"
+	@echo "... functions/JT_1_1_taylor.s"
 	@echo "... functions/JT_2_1.o"
 	@echo "... functions/JT_2_1.i"
 	@echo "... functions/JT_2_1.s"
@@ -1042,6 +1183,9 @@ help:
 	@echo "... functions/a_1_1.o"
 	@echo "... functions/a_1_1.i"
 	@echo "... functions/a_1_1.s"
+	@echo "... functions/a_1_1_taylor.o"
+	@echo "... functions/a_1_1_taylor.i"
+	@echo "... functions/a_1_1_taylor.s"
 	@echo "... functions/a_2_1.o"
 	@echo "... functions/a_2_1.i"
 	@echo "... functions/a_2_1.s"
@@ -1060,6 +1204,9 @@ help:
 	@echo "... functions/alpha_1_1.o"
 	@echo "... functions/alpha_1_1.i"
 	@echo "... functions/alpha_1_1.s"
+	@echo "... functions/alpha_1_1_taylor.o"
+	@echo "... functions/alpha_1_1_taylor.i"
+	@echo "... functions/alpha_1_1_taylor.s"
 	@echo "... functions/alpha_2_1.o"
 	@echo "... functions/alpha_2_1.i"
 	@echo "... functions/alpha_2_1.s"
@@ -1078,6 +1225,9 @@ help:
 	@echo "... functions/wcrl_1_1.o"
 	@echo "... functions/wcrl_1_1.i"
 	@echo "... functions/wcrl_1_1.s"
+	@echo "... functions/wcrl_1_1_taylor.o"
+	@echo "... functions/wcrl_1_1_taylor.i"
+	@echo "... functions/wcrl_1_1_taylor.s"
 	@echo "... functions/wcrl_2_1.o"
 	@echo "... functions/wcrl_2_1.i"
 	@echo "... functions/wcrl_2_1.s"

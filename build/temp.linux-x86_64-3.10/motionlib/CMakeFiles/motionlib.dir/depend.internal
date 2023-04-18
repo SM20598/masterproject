@@ -19,30 +19,35 @@ CMakeFiles/motionlib.dir/src/binder.cpp.o
  ../../../pybind11/include/pybind11/pybind11.h
  ../../../pybind11/include/pybind11/pytypes.h
  /home/lastsean/CLionProjects/Masterproject/functions/JR_1_1.h
+ /home/lastsean/CLionProjects/Masterproject/functions/JR_1_1_taylor.h
  /home/lastsean/CLionProjects/Masterproject/functions/JR_2_1.h
  /home/lastsean/CLionProjects/Masterproject/functions/JR_2_2.h
  /home/lastsean/CLionProjects/Masterproject/functions/JR_3_1.h
  /home/lastsean/CLionProjects/Masterproject/functions/JR_3_2.h
  /home/lastsean/CLionProjects/Masterproject/functions/JR_3_3.h
  /home/lastsean/CLionProjects/Masterproject/functions/JT_1_1.h
+ /home/lastsean/CLionProjects/Masterproject/functions/JT_1_1_taylor.h
  /home/lastsean/CLionProjects/Masterproject/functions/JT_2_1.h
  /home/lastsean/CLionProjects/Masterproject/functions/JT_2_2.h
  /home/lastsean/CLionProjects/Masterproject/functions/JT_3_1.h
  /home/lastsean/CLionProjects/Masterproject/functions/JT_3_2.h
  /home/lastsean/CLionProjects/Masterproject/functions/JT_3_3.h
  /home/lastsean/CLionProjects/Masterproject/functions/a_1_1.h
+ /home/lastsean/CLionProjects/Masterproject/functions/a_1_1_taylor.h
  /home/lastsean/CLionProjects/Masterproject/functions/a_2_1.h
  /home/lastsean/CLionProjects/Masterproject/functions/a_2_2.h
  /home/lastsean/CLionProjects/Masterproject/functions/a_3_1.h
  /home/lastsean/CLionProjects/Masterproject/functions/a_3_2.h
  /home/lastsean/CLionProjects/Masterproject/functions/a_3_3.h
  /home/lastsean/CLionProjects/Masterproject/functions/alpha_1_1.h
+ /home/lastsean/CLionProjects/Masterproject/functions/alpha_1_1_taylor.h
  /home/lastsean/CLionProjects/Masterproject/functions/alpha_2_1.h
  /home/lastsean/CLionProjects/Masterproject/functions/alpha_2_2.h
  /home/lastsean/CLionProjects/Masterproject/functions/alpha_3_1.h
  /home/lastsean/CLionProjects/Masterproject/functions/alpha_3_2.h
  /home/lastsean/CLionProjects/Masterproject/functions/alpha_3_3.h
  /home/lastsean/CLionProjects/Masterproject/functions/wcrl_1_1.h
+ /home/lastsean/CLionProjects/Masterproject/functions/wcrl_1_1_taylor.h
  /home/lastsean/CLionProjects/Masterproject/functions/wcrl_2_1.h
  /home/lastsean/CLionProjects/Masterproject/functions/wcrl_2_2.h
  /home/lastsean/CLionProjects/Masterproject/functions/wcrl_3_1.h
