@@ -18,41 +18,27 @@ CMakeFiles/motionlib.dir/src/binder.cpp.o
  ../../../pybind11/include/pybind11/options.h
  ../../../pybind11/include/pybind11/pybind11.h
  ../../../pybind11/include/pybind11/pytypes.h
- /home/lastsean/CLionProjects/Masterproject/functions/JR_1_1.h
- /home/lastsean/CLionProjects/Masterproject/functions/JR_1_1_taylor.h
- /home/lastsean/CLionProjects/Masterproject/functions/JR_2_1.h
- /home/lastsean/CLionProjects/Masterproject/functions/JR_2_2.h
- /home/lastsean/CLionProjects/Masterproject/functions/JR_3_1.h
- /home/lastsean/CLionProjects/Masterproject/functions/JR_3_2.h
- /home/lastsean/CLionProjects/Masterproject/functions/JR_3_3.h
- /home/lastsean/CLionProjects/Masterproject/functions/JT_1_1.h
- /home/lastsean/CLionProjects/Masterproject/functions/JT_1_1_taylor.h
- /home/lastsean/CLionProjects/Masterproject/functions/JT_2_1.h
- /home/lastsean/CLionProjects/Masterproject/functions/JT_2_2.h
- /home/lastsean/CLionProjects/Masterproject/functions/JT_3_1.h
- /home/lastsean/CLionProjects/Masterproject/functions/JT_3_2.h
- /home/lastsean/CLionProjects/Masterproject/functions/JT_3_3.h
- /home/lastsean/CLionProjects/Masterproject/functions/a_1_1.h
- /home/lastsean/CLionProjects/Masterproject/functions/a_1_1_taylor.h
- /home/lastsean/CLionProjects/Masterproject/functions/a_2_1.h
- /home/lastsean/CLionProjects/Masterproject/functions/a_2_2.h
- /home/lastsean/CLionProjects/Masterproject/functions/a_3_1.h
- /home/lastsean/CLionProjects/Masterproject/functions/a_3_2.h
- /home/lastsean/CLionProjects/Masterproject/functions/a_3_3.h
- /home/lastsean/CLionProjects/Masterproject/functions/alpha_1_1.h
- /home/lastsean/CLionProjects/Masterproject/functions/alpha_1_1_taylor.h
- /home/lastsean/CLionProjects/Masterproject/functions/alpha_2_1.h
- /home/lastsean/CLionProjects/Masterproject/functions/alpha_2_2.h
- /home/lastsean/CLionProjects/Masterproject/functions/alpha_3_1.h
- /home/lastsean/CLionProjects/Masterproject/functions/alpha_3_2.h
- /home/lastsean/CLionProjects/Masterproject/functions/alpha_3_3.h
- /home/lastsean/CLionProjects/Masterproject/functions/wcrl_1_1.h
- /home/lastsean/CLionProjects/Masterproject/functions/wcrl_1_1_taylor.h
- /home/lastsean/CLionProjects/Masterproject/functions/wcrl_2_1.h
- /home/lastsean/CLionProjects/Masterproject/functions/wcrl_2_2.h
- /home/lastsean/CLionProjects/Masterproject/functions/wcrl_3_1.h
- /home/lastsean/CLionProjects/Masterproject/functions/wcrl_3_2.h
- /home/lastsean/CLionProjects/Masterproject/functions/wcrl_3_3.h
+ /home/lastsean/CLionProjects/Masterproject/functions/M_1.h
+ /home/lastsean/CLionProjects/Masterproject/functions/M_1_taylor.h
+ /home/lastsean/CLionProjects/Masterproject/functions/M_2.h
+ /home/lastsean/CLionProjects/Masterproject/functions/M_2_taylor.h
+ /home/lastsean/CLionProjects/Masterproject/functions/b_1.h
+ /home/lastsean/CLionProjects/Masterproject/functions/b_1_taylor.h
+ /home/lastsean/CLionProjects/Masterproject/functions/b_2.h
+ /home/lastsean/CLionProjects/Masterproject/functions/b_2_taylor.h
+ /home/lastsean/CLionProjects/Masterproject/functions/h_1.h
+ /home/lastsean/CLionProjects/Masterproject/functions/h_1_taylor.h
+ /home/lastsean/CLionProjects/Masterproject/functions/h_2.h
+ /home/lastsean/CLionProjects/Masterproject/functions/h_2_taylor.h
+ /home/lastsean/CLionProjects/Masterproject/functions/k_1.h
+ /home/lastsean/CLionProjects/Masterproject/functions/k_1_taylor.h
+ /home/lastsean/CLionProjects/Masterproject/functions/k_2.h
+ /home/lastsean/CLionProjects/Masterproject/functions/k_2_taylor.h
+ /home/lastsean/CLionProjects/Masterproject/functions/mytestfunc.h
+ /home/lastsean/CLionProjects/Masterproject/functions/q_1.h
+ /home/lastsean/CLionProjects/Masterproject/functions/q_1_taylor.h
+ /home/lastsean/CLionProjects/Masterproject/functions/q_2.h
+ /home/lastsean/CLionProjects/Masterproject/functions/q_2_taylor.h
  /home/lastsean/CLionProjects/Masterproject/src/binder.cpp
  /usr/include/python3.10/Python.h
  /usr/include/python3.10/abstract.h

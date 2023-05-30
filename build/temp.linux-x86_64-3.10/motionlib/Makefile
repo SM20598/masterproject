@@ -156,950 +156,950 @@ funcs/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/build
 .PHONY : funcs/fast
 
-functions/JR_1_1.o: functions/JR_1_1.cpp.o
+functions/H_1.o: functions/H_1.cpp.o
 
-.PHONY : functions/JR_1_1.o
-
-# target to build an object file
-functions/JR_1_1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/JR_1_1.cpp.o
-.PHONY : functions/JR_1_1.cpp.o
-
-functions/JR_1_1.i: functions/JR_1_1.cpp.i
-
-.PHONY : functions/JR_1_1.i
-
-# target to preprocess a source file
-functions/JR_1_1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/JR_1_1.cpp.i
-.PHONY : functions/JR_1_1.cpp.i
-
-functions/JR_1_1.s: functions/JR_1_1.cpp.s
-
-.PHONY : functions/JR_1_1.s
-
-# target to generate assembly for a file
-functions/JR_1_1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/JR_1_1.cpp.s
-.PHONY : functions/JR_1_1.cpp.s
-
-functions/JR_1_1_taylor.o: functions/JR_1_1_taylor.cpp.o
-
-.PHONY : functions/JR_1_1_taylor.o
+.PHONY : functions/H_1.o
 
 # target to build an object file
-functions/JR_1_1_taylor.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/JR_1_1_taylor.cpp.o
-.PHONY : functions/JR_1_1_taylor.cpp.o
+functions/H_1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/H_1.cpp.o
+.PHONY : functions/H_1.cpp.o
 
-functions/JR_1_1_taylor.i: functions/JR_1_1_taylor.cpp.i
+functions/H_1.i: functions/H_1.cpp.i
 
-.PHONY : functions/JR_1_1_taylor.i
+.PHONY : functions/H_1.i
 
 # target to preprocess a source file
-functions/JR_1_1_taylor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/JR_1_1_taylor.cpp.i
-.PHONY : functions/JR_1_1_taylor.cpp.i
+functions/H_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/H_1.cpp.i
+.PHONY : functions/H_1.cpp.i
 
-functions/JR_1_1_taylor.s: functions/JR_1_1_taylor.cpp.s
+functions/H_1.s: functions/H_1.cpp.s
 
-.PHONY : functions/JR_1_1_taylor.s
+.PHONY : functions/H_1.s
 
 # target to generate assembly for a file
-functions/JR_1_1_taylor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/JR_1_1_taylor.cpp.s
-.PHONY : functions/JR_1_1_taylor.cpp.s
+functions/H_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/H_1.cpp.s
+.PHONY : functions/H_1.cpp.s
 
-functions/JR_2_1.o: functions/JR_2_1.cpp.o
+functions/H_1_taylor.o: functions/H_1_taylor.cpp.o
 
-.PHONY : functions/JR_2_1.o
+.PHONY : functions/H_1_taylor.o
 
 # target to build an object file
-functions/JR_2_1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/JR_2_1.cpp.o
-.PHONY : functions/JR_2_1.cpp.o
+functions/H_1_taylor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/H_1_taylor.cpp.o
+.PHONY : functions/H_1_taylor.cpp.o
 
-functions/JR_2_1.i: functions/JR_2_1.cpp.i
+functions/H_1_taylor.i: functions/H_1_taylor.cpp.i
 
-.PHONY : functions/JR_2_1.i
+.PHONY : functions/H_1_taylor.i
 
 # target to preprocess a source file
-functions/JR_2_1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/JR_2_1.cpp.i
-.PHONY : functions/JR_2_1.cpp.i
+functions/H_1_taylor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/H_1_taylor.cpp.i
+.PHONY : functions/H_1_taylor.cpp.i
 
-functions/JR_2_1.s: functions/JR_2_1.cpp.s
+functions/H_1_taylor.s: functions/H_1_taylor.cpp.s
 
-.PHONY : functions/JR_2_1.s
+.PHONY : functions/H_1_taylor.s
 
 # target to generate assembly for a file
-functions/JR_2_1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/JR_2_1.cpp.s
-.PHONY : functions/JR_2_1.cpp.s
+functions/H_1_taylor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/H_1_taylor.cpp.s
+.PHONY : functions/H_1_taylor.cpp.s
 
-functions/JR_2_2.o: functions/JR_2_2.cpp.o
+functions/H_2.o: functions/H_2.cpp.o
 
-.PHONY : functions/JR_2_2.o
+.PHONY : functions/H_2.o
 
 # target to build an object file
-functions/JR_2_2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/JR_2_2.cpp.o
-.PHONY : functions/JR_2_2.cpp.o
+functions/H_2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/H_2.cpp.o
+.PHONY : functions/H_2.cpp.o
 
-functions/JR_2_2.i: functions/JR_2_2.cpp.i
+functions/H_2.i: functions/H_2.cpp.i
 
-.PHONY : functions/JR_2_2.i
+.PHONY : functions/H_2.i
 
 # target to preprocess a source file
-functions/JR_2_2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/JR_2_2.cpp.i
-.PHONY : functions/JR_2_2.cpp.i
+functions/H_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/H_2.cpp.i
+.PHONY : functions/H_2.cpp.i
 
-functions/JR_2_2.s: functions/JR_2_2.cpp.s
+functions/H_2.s: functions/H_2.cpp.s
 
-.PHONY : functions/JR_2_2.s
+.PHONY : functions/H_2.s
 
 # target to generate assembly for a file
-functions/JR_2_2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/JR_2_2.cpp.s
-.PHONY : functions/JR_2_2.cpp.s
+functions/H_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/H_2.cpp.s
+.PHONY : functions/H_2.cpp.s
 
-functions/JR_3_1.o: functions/JR_3_1.cpp.o
+functions/H_2_taylor.o: functions/H_2_taylor.cpp.o
 
-.PHONY : functions/JR_3_1.o
+.PHONY : functions/H_2_taylor.o
 
 # target to build an object file
-functions/JR_3_1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/JR_3_1.cpp.o
-.PHONY : functions/JR_3_1.cpp.o
+functions/H_2_taylor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/H_2_taylor.cpp.o
+.PHONY : functions/H_2_taylor.cpp.o
 
-functions/JR_3_1.i: functions/JR_3_1.cpp.i
+functions/H_2_taylor.i: functions/H_2_taylor.cpp.i
 
-.PHONY : functions/JR_3_1.i
+.PHONY : functions/H_2_taylor.i
 
 # target to preprocess a source file
-functions/JR_3_1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/JR_3_1.cpp.i
-.PHONY : functions/JR_3_1.cpp.i
+functions/H_2_taylor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/H_2_taylor.cpp.i
+.PHONY : functions/H_2_taylor.cpp.i
 
-functions/JR_3_1.s: functions/JR_3_1.cpp.s
+functions/H_2_taylor.s: functions/H_2_taylor.cpp.s
 
-.PHONY : functions/JR_3_1.s
+.PHONY : functions/H_2_taylor.s
 
 # target to generate assembly for a file
-functions/JR_3_1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/JR_3_1.cpp.s
-.PHONY : functions/JR_3_1.cpp.s
+functions/H_2_taylor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/H_2_taylor.cpp.s
+.PHONY : functions/H_2_taylor.cpp.s
 
-functions/JR_3_2.o: functions/JR_3_2.cpp.o
+functions/M_1.o: functions/M_1.cpp.o
 
-.PHONY : functions/JR_3_2.o
+.PHONY : functions/M_1.o
 
 # target to build an object file
-functions/JR_3_2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/JR_3_2.cpp.o
-.PHONY : functions/JR_3_2.cpp.o
+functions/M_1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/M_1.cpp.o
+.PHONY : functions/M_1.cpp.o
 
-functions/JR_3_2.i: functions/JR_3_2.cpp.i
+functions/M_1.i: functions/M_1.cpp.i
 
-.PHONY : functions/JR_3_2.i
+.PHONY : functions/M_1.i
 
 # target to preprocess a source file
-functions/JR_3_2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/JR_3_2.cpp.i
-.PHONY : functions/JR_3_2.cpp.i
+functions/M_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/M_1.cpp.i
+.PHONY : functions/M_1.cpp.i
 
-functions/JR_3_2.s: functions/JR_3_2.cpp.s
+functions/M_1.s: functions/M_1.cpp.s
 
-.PHONY : functions/JR_3_2.s
+.PHONY : functions/M_1.s
 
 # target to generate assembly for a file
-functions/JR_3_2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/JR_3_2.cpp.s
-.PHONY : functions/JR_3_2.cpp.s
+functions/M_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/M_1.cpp.s
+.PHONY : functions/M_1.cpp.s
 
-functions/JR_3_3.o: functions/JR_3_3.cpp.o
+functions/M_1_1.o: functions/M_1_1.cpp.o
 
-.PHONY : functions/JR_3_3.o
+.PHONY : functions/M_1_1.o
 
 # target to build an object file
-functions/JR_3_3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/JR_3_3.cpp.o
-.PHONY : functions/JR_3_3.cpp.o
+functions/M_1_1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/M_1_1.cpp.o
+.PHONY : functions/M_1_1.cpp.o
 
-functions/JR_3_3.i: functions/JR_3_3.cpp.i
+functions/M_1_1.i: functions/M_1_1.cpp.i
 
-.PHONY : functions/JR_3_3.i
+.PHONY : functions/M_1_1.i
 
 # target to preprocess a source file
-functions/JR_3_3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/JR_3_3.cpp.i
-.PHONY : functions/JR_3_3.cpp.i
+functions/M_1_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/M_1_1.cpp.i
+.PHONY : functions/M_1_1.cpp.i
 
-functions/JR_3_3.s: functions/JR_3_3.cpp.s
+functions/M_1_1.s: functions/M_1_1.cpp.s
 
-.PHONY : functions/JR_3_3.s
+.PHONY : functions/M_1_1.s
 
 # target to generate assembly for a file
-functions/JR_3_3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/JR_3_3.cpp.s
-.PHONY : functions/JR_3_3.cpp.s
+functions/M_1_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/M_1_1.cpp.s
+.PHONY : functions/M_1_1.cpp.s
 
-functions/JT_1_1.o: functions/JT_1_1.cpp.o
+functions/M_1_1_taylor.o: functions/M_1_1_taylor.cpp.o
 
-.PHONY : functions/JT_1_1.o
+.PHONY : functions/M_1_1_taylor.o
 
 # target to build an object file
-functions/JT_1_1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/JT_1_1.cpp.o
-.PHONY : functions/JT_1_1.cpp.o
+functions/M_1_1_taylor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/M_1_1_taylor.cpp.o
+.PHONY : functions/M_1_1_taylor.cpp.o
 
-functions/JT_1_1.i: functions/JT_1_1.cpp.i
+functions/M_1_1_taylor.i: functions/M_1_1_taylor.cpp.i
 
-.PHONY : functions/JT_1_1.i
+.PHONY : functions/M_1_1_taylor.i
 
 # target to preprocess a source file
-functions/JT_1_1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/JT_1_1.cpp.i
-.PHONY : functions/JT_1_1.cpp.i
+functions/M_1_1_taylor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/M_1_1_taylor.cpp.i
+.PHONY : functions/M_1_1_taylor.cpp.i
 
-functions/JT_1_1.s: functions/JT_1_1.cpp.s
+functions/M_1_1_taylor.s: functions/M_1_1_taylor.cpp.s
 
-.PHONY : functions/JT_1_1.s
+.PHONY : functions/M_1_1_taylor.s
 
 # target to generate assembly for a file
-functions/JT_1_1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/JT_1_1.cpp.s
-.PHONY : functions/JT_1_1.cpp.s
+functions/M_1_1_taylor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/M_1_1_taylor.cpp.s
+.PHONY : functions/M_1_1_taylor.cpp.s
 
-functions/JT_1_1_taylor.o: functions/JT_1_1_taylor.cpp.o
+functions/M_1_taylor.o: functions/M_1_taylor.cpp.o
 
-.PHONY : functions/JT_1_1_taylor.o
+.PHONY : functions/M_1_taylor.o
 
 # target to build an object file
-functions/JT_1_1_taylor.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/JT_1_1_taylor.cpp.o
-.PHONY : functions/JT_1_1_taylor.cpp.o
+functions/M_1_taylor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/M_1_taylor.cpp.o
+.PHONY : functions/M_1_taylor.cpp.o
 
-functions/JT_1_1_taylor.i: functions/JT_1_1_taylor.cpp.i
+functions/M_1_taylor.i: functions/M_1_taylor.cpp.i
 
-.PHONY : functions/JT_1_1_taylor.i
+.PHONY : functions/M_1_taylor.i
 
 # target to preprocess a source file
-functions/JT_1_1_taylor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/JT_1_1_taylor.cpp.i
-.PHONY : functions/JT_1_1_taylor.cpp.i
+functions/M_1_taylor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/M_1_taylor.cpp.i
+.PHONY : functions/M_1_taylor.cpp.i
 
-functions/JT_1_1_taylor.s: functions/JT_1_1_taylor.cpp.s
+functions/M_1_taylor.s: functions/M_1_taylor.cpp.s
 
-.PHONY : functions/JT_1_1_taylor.s
+.PHONY : functions/M_1_taylor.s
 
 # target to generate assembly for a file
-functions/JT_1_1_taylor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/JT_1_1_taylor.cpp.s
-.PHONY : functions/JT_1_1_taylor.cpp.s
+functions/M_1_taylor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/M_1_taylor.cpp.s
+.PHONY : functions/M_1_taylor.cpp.s
 
-functions/JT_2_1.o: functions/JT_2_1.cpp.o
+functions/M_2.o: functions/M_2.cpp.o
 
-.PHONY : functions/JT_2_1.o
+.PHONY : functions/M_2.o
 
 # target to build an object file
-functions/JT_2_1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/JT_2_1.cpp.o
-.PHONY : functions/JT_2_1.cpp.o
+functions/M_2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/M_2.cpp.o
+.PHONY : functions/M_2.cpp.o
 
-functions/JT_2_1.i: functions/JT_2_1.cpp.i
+functions/M_2.i: functions/M_2.cpp.i
 
-.PHONY : functions/JT_2_1.i
+.PHONY : functions/M_2.i
 
 # target to preprocess a source file
-functions/JT_2_1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/JT_2_1.cpp.i
-.PHONY : functions/JT_2_1.cpp.i
+functions/M_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/M_2.cpp.i
+.PHONY : functions/M_2.cpp.i
 
-functions/JT_2_1.s: functions/JT_2_1.cpp.s
+functions/M_2.s: functions/M_2.cpp.s
 
-.PHONY : functions/JT_2_1.s
+.PHONY : functions/M_2.s
 
 # target to generate assembly for a file
-functions/JT_2_1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/JT_2_1.cpp.s
-.PHONY : functions/JT_2_1.cpp.s
+functions/M_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/M_2.cpp.s
+.PHONY : functions/M_2.cpp.s
 
-functions/JT_2_2.o: functions/JT_2_2.cpp.o
+functions/M_2_taylor.o: functions/M_2_taylor.cpp.o
 
-.PHONY : functions/JT_2_2.o
+.PHONY : functions/M_2_taylor.o
 
 # target to build an object file
-functions/JT_2_2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/JT_2_2.cpp.o
-.PHONY : functions/JT_2_2.cpp.o
+functions/M_2_taylor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/M_2_taylor.cpp.o
+.PHONY : functions/M_2_taylor.cpp.o
 
-functions/JT_2_2.i: functions/JT_2_2.cpp.i
+functions/M_2_taylor.i: functions/M_2_taylor.cpp.i
 
-.PHONY : functions/JT_2_2.i
+.PHONY : functions/M_2_taylor.i
 
 # target to preprocess a source file
-functions/JT_2_2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/JT_2_2.cpp.i
-.PHONY : functions/JT_2_2.cpp.i
+functions/M_2_taylor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/M_2_taylor.cpp.i
+.PHONY : functions/M_2_taylor.cpp.i
 
-functions/JT_2_2.s: functions/JT_2_2.cpp.s
+functions/M_2_taylor.s: functions/M_2_taylor.cpp.s
 
-.PHONY : functions/JT_2_2.s
+.PHONY : functions/M_2_taylor.s
 
 # target to generate assembly for a file
-functions/JT_2_2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/JT_2_2.cpp.s
-.PHONY : functions/JT_2_2.cpp.s
+functions/M_2_taylor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/M_2_taylor.cpp.s
+.PHONY : functions/M_2_taylor.cpp.s
 
-functions/JT_3_1.o: functions/JT_3_1.cpp.o
+functions/b_1.o: functions/b_1.cpp.o
 
-.PHONY : functions/JT_3_1.o
+.PHONY : functions/b_1.o
 
 # target to build an object file
-functions/JT_3_1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/JT_3_1.cpp.o
-.PHONY : functions/JT_3_1.cpp.o
+functions/b_1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/b_1.cpp.o
+.PHONY : functions/b_1.cpp.o
 
-functions/JT_3_1.i: functions/JT_3_1.cpp.i
+functions/b_1.i: functions/b_1.cpp.i
 
-.PHONY : functions/JT_3_1.i
+.PHONY : functions/b_1.i
 
 # target to preprocess a source file
-functions/JT_3_1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/JT_3_1.cpp.i
-.PHONY : functions/JT_3_1.cpp.i
+functions/b_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/b_1.cpp.i
+.PHONY : functions/b_1.cpp.i
 
-functions/JT_3_1.s: functions/JT_3_1.cpp.s
+functions/b_1.s: functions/b_1.cpp.s
 
-.PHONY : functions/JT_3_1.s
+.PHONY : functions/b_1.s
 
 # target to generate assembly for a file
-functions/JT_3_1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/JT_3_1.cpp.s
-.PHONY : functions/JT_3_1.cpp.s
+functions/b_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/b_1.cpp.s
+.PHONY : functions/b_1.cpp.s
 
-functions/JT_3_2.o: functions/JT_3_2.cpp.o
+functions/b_1_taylor.o: functions/b_1_taylor.cpp.o
 
-.PHONY : functions/JT_3_2.o
+.PHONY : functions/b_1_taylor.o
 
 # target to build an object file
-functions/JT_3_2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/JT_3_2.cpp.o
-.PHONY : functions/JT_3_2.cpp.o
+functions/b_1_taylor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/b_1_taylor.cpp.o
+.PHONY : functions/b_1_taylor.cpp.o
 
-functions/JT_3_2.i: functions/JT_3_2.cpp.i
+functions/b_1_taylor.i: functions/b_1_taylor.cpp.i
 
-.PHONY : functions/JT_3_2.i
+.PHONY : functions/b_1_taylor.i
 
 # target to preprocess a source file
-functions/JT_3_2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/JT_3_2.cpp.i
-.PHONY : functions/JT_3_2.cpp.i
+functions/b_1_taylor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/b_1_taylor.cpp.i
+.PHONY : functions/b_1_taylor.cpp.i
 
-functions/JT_3_2.s: functions/JT_3_2.cpp.s
+functions/b_1_taylor.s: functions/b_1_taylor.cpp.s
 
-.PHONY : functions/JT_3_2.s
+.PHONY : functions/b_1_taylor.s
 
 # target to generate assembly for a file
-functions/JT_3_2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/JT_3_2.cpp.s
-.PHONY : functions/JT_3_2.cpp.s
+functions/b_1_taylor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/b_1_taylor.cpp.s
+.PHONY : functions/b_1_taylor.cpp.s
 
-functions/JT_3_3.o: functions/JT_3_3.cpp.o
+functions/b_2.o: functions/b_2.cpp.o
 
-.PHONY : functions/JT_3_3.o
+.PHONY : functions/b_2.o
 
 # target to build an object file
-functions/JT_3_3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/JT_3_3.cpp.o
-.PHONY : functions/JT_3_3.cpp.o
+functions/b_2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/b_2.cpp.o
+.PHONY : functions/b_2.cpp.o
 
-functions/JT_3_3.i: functions/JT_3_3.cpp.i
+functions/b_2.i: functions/b_2.cpp.i
 
-.PHONY : functions/JT_3_3.i
+.PHONY : functions/b_2.i
 
 # target to preprocess a source file
-functions/JT_3_3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/JT_3_3.cpp.i
-.PHONY : functions/JT_3_3.cpp.i
+functions/b_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/b_2.cpp.i
+.PHONY : functions/b_2.cpp.i
 
-functions/JT_3_3.s: functions/JT_3_3.cpp.s
+functions/b_2.s: functions/b_2.cpp.s
 
-.PHONY : functions/JT_3_3.s
+.PHONY : functions/b_2.s
 
 # target to generate assembly for a file
-functions/JT_3_3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/JT_3_3.cpp.s
-.PHONY : functions/JT_3_3.cpp.s
+functions/b_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/b_2.cpp.s
+.PHONY : functions/b_2.cpp.s
 
-functions/a_1_1.o: functions/a_1_1.cpp.o
+functions/b_2_taylor.o: functions/b_2_taylor.cpp.o
 
-.PHONY : functions/a_1_1.o
+.PHONY : functions/b_2_taylor.o
 
 # target to build an object file
-functions/a_1_1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/a_1_1.cpp.o
-.PHONY : functions/a_1_1.cpp.o
+functions/b_2_taylor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/b_2_taylor.cpp.o
+.PHONY : functions/b_2_taylor.cpp.o
 
-functions/a_1_1.i: functions/a_1_1.cpp.i
+functions/b_2_taylor.i: functions/b_2_taylor.cpp.i
 
-.PHONY : functions/a_1_1.i
+.PHONY : functions/b_2_taylor.i
 
 # target to preprocess a source file
-functions/a_1_1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/a_1_1.cpp.i
-.PHONY : functions/a_1_1.cpp.i
+functions/b_2_taylor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/b_2_taylor.cpp.i
+.PHONY : functions/b_2_taylor.cpp.i
 
-functions/a_1_1.s: functions/a_1_1.cpp.s
+functions/b_2_taylor.s: functions/b_2_taylor.cpp.s
 
-.PHONY : functions/a_1_1.s
+.PHONY : functions/b_2_taylor.s
 
 # target to generate assembly for a file
-functions/a_1_1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/a_1_1.cpp.s
-.PHONY : functions/a_1_1.cpp.s
+functions/b_2_taylor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/b_2_taylor.cpp.s
+.PHONY : functions/b_2_taylor.cpp.s
 
-functions/a_1_1_taylor.o: functions/a_1_1_taylor.cpp.o
+functions/dH_1.o: functions/dH_1.cpp.o
 
-.PHONY : functions/a_1_1_taylor.o
+.PHONY : functions/dH_1.o
 
 # target to build an object file
-functions/a_1_1_taylor.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/a_1_1_taylor.cpp.o
-.PHONY : functions/a_1_1_taylor.cpp.o
+functions/dH_1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/dH_1.cpp.o
+.PHONY : functions/dH_1.cpp.o
 
-functions/a_1_1_taylor.i: functions/a_1_1_taylor.cpp.i
+functions/dH_1.i: functions/dH_1.cpp.i
 
-.PHONY : functions/a_1_1_taylor.i
+.PHONY : functions/dH_1.i
 
 # target to preprocess a source file
-functions/a_1_1_taylor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/a_1_1_taylor.cpp.i
-.PHONY : functions/a_1_1_taylor.cpp.i
+functions/dH_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/dH_1.cpp.i
+.PHONY : functions/dH_1.cpp.i
 
-functions/a_1_1_taylor.s: functions/a_1_1_taylor.cpp.s
+functions/dH_1.s: functions/dH_1.cpp.s
 
-.PHONY : functions/a_1_1_taylor.s
+.PHONY : functions/dH_1.s
 
 # target to generate assembly for a file
-functions/a_1_1_taylor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/a_1_1_taylor.cpp.s
-.PHONY : functions/a_1_1_taylor.cpp.s
+functions/dH_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/dH_1.cpp.s
+.PHONY : functions/dH_1.cpp.s
 
-functions/a_2_1.o: functions/a_2_1.cpp.o
+functions/dH_1_taylor.o: functions/dH_1_taylor.cpp.o
 
-.PHONY : functions/a_2_1.o
+.PHONY : functions/dH_1_taylor.o
 
 # target to build an object file
-functions/a_2_1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/a_2_1.cpp.o
-.PHONY : functions/a_2_1.cpp.o
+functions/dH_1_taylor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/dH_1_taylor.cpp.o
+.PHONY : functions/dH_1_taylor.cpp.o
 
-functions/a_2_1.i: functions/a_2_1.cpp.i
+functions/dH_1_taylor.i: functions/dH_1_taylor.cpp.i
 
-.PHONY : functions/a_2_1.i
+.PHONY : functions/dH_1_taylor.i
 
 # target to preprocess a source file
-functions/a_2_1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/a_2_1.cpp.i
-.PHONY : functions/a_2_1.cpp.i
+functions/dH_1_taylor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/dH_1_taylor.cpp.i
+.PHONY : functions/dH_1_taylor.cpp.i
 
-functions/a_2_1.s: functions/a_2_1.cpp.s
+functions/dH_1_taylor.s: functions/dH_1_taylor.cpp.s
 
-.PHONY : functions/a_2_1.s
+.PHONY : functions/dH_1_taylor.s
 
 # target to generate assembly for a file
-functions/a_2_1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/a_2_1.cpp.s
-.PHONY : functions/a_2_1.cpp.s
+functions/dH_1_taylor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/dH_1_taylor.cpp.s
+.PHONY : functions/dH_1_taylor.cpp.s
 
-functions/a_2_2.o: functions/a_2_2.cpp.o
+functions/dH_2.o: functions/dH_2.cpp.o
 
-.PHONY : functions/a_2_2.o
+.PHONY : functions/dH_2.o
 
 # target to build an object file
-functions/a_2_2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/a_2_2.cpp.o
-.PHONY : functions/a_2_2.cpp.o
+functions/dH_2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/dH_2.cpp.o
+.PHONY : functions/dH_2.cpp.o
 
-functions/a_2_2.i: functions/a_2_2.cpp.i
+functions/dH_2.i: functions/dH_2.cpp.i
 
-.PHONY : functions/a_2_2.i
+.PHONY : functions/dH_2.i
 
 # target to preprocess a source file
-functions/a_2_2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/a_2_2.cpp.i
-.PHONY : functions/a_2_2.cpp.i
+functions/dH_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/dH_2.cpp.i
+.PHONY : functions/dH_2.cpp.i
 
-functions/a_2_2.s: functions/a_2_2.cpp.s
+functions/dH_2.s: functions/dH_2.cpp.s
 
-.PHONY : functions/a_2_2.s
+.PHONY : functions/dH_2.s
 
 # target to generate assembly for a file
-functions/a_2_2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/a_2_2.cpp.s
-.PHONY : functions/a_2_2.cpp.s
+functions/dH_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/dH_2.cpp.s
+.PHONY : functions/dH_2.cpp.s
 
-functions/a_3_1.o: functions/a_3_1.cpp.o
+functions/dH_2_taylor.o: functions/dH_2_taylor.cpp.o
 
-.PHONY : functions/a_3_1.o
+.PHONY : functions/dH_2_taylor.o
 
 # target to build an object file
-functions/a_3_1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/a_3_1.cpp.o
-.PHONY : functions/a_3_1.cpp.o
+functions/dH_2_taylor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/dH_2_taylor.cpp.o
+.PHONY : functions/dH_2_taylor.cpp.o
 
-functions/a_3_1.i: functions/a_3_1.cpp.i
+functions/dH_2_taylor.i: functions/dH_2_taylor.cpp.i
 
-.PHONY : functions/a_3_1.i
+.PHONY : functions/dH_2_taylor.i
 
 # target to preprocess a source file
-functions/a_3_1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/a_3_1.cpp.i
-.PHONY : functions/a_3_1.cpp.i
+functions/dH_2_taylor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/dH_2_taylor.cpp.i
+.PHONY : functions/dH_2_taylor.cpp.i
 
-functions/a_3_1.s: functions/a_3_1.cpp.s
+functions/dH_2_taylor.s: functions/dH_2_taylor.cpp.s
 
-.PHONY : functions/a_3_1.s
+.PHONY : functions/dH_2_taylor.s
 
 # target to generate assembly for a file
-functions/a_3_1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/a_3_1.cpp.s
-.PHONY : functions/a_3_1.cpp.s
+functions/dH_2_taylor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/dH_2_taylor.cpp.s
+.PHONY : functions/dH_2_taylor.cpp.s
 
-functions/a_3_2.o: functions/a_3_2.cpp.o
+functions/h_1.o: functions/h_1.cpp.o
 
-.PHONY : functions/a_3_2.o
+.PHONY : functions/h_1.o
 
 # target to build an object file
-functions/a_3_2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/a_3_2.cpp.o
-.PHONY : functions/a_3_2.cpp.o
+functions/h_1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/h_1.cpp.o
+.PHONY : functions/h_1.cpp.o
 
-functions/a_3_2.i: functions/a_3_2.cpp.i
+functions/h_1.i: functions/h_1.cpp.i
 
-.PHONY : functions/a_3_2.i
+.PHONY : functions/h_1.i
 
 # target to preprocess a source file
-functions/a_3_2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/a_3_2.cpp.i
-.PHONY : functions/a_3_2.cpp.i
+functions/h_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/h_1.cpp.i
+.PHONY : functions/h_1.cpp.i
 
-functions/a_3_2.s: functions/a_3_2.cpp.s
+functions/h_1.s: functions/h_1.cpp.s
 
-.PHONY : functions/a_3_2.s
+.PHONY : functions/h_1.s
 
 # target to generate assembly for a file
-functions/a_3_2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/a_3_2.cpp.s
-.PHONY : functions/a_3_2.cpp.s
+functions/h_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/h_1.cpp.s
+.PHONY : functions/h_1.cpp.s
 
-functions/a_3_3.o: functions/a_3_3.cpp.o
+functions/h_1_taylor.o: functions/h_1_taylor.cpp.o
 
-.PHONY : functions/a_3_3.o
+.PHONY : functions/h_1_taylor.o
 
 # target to build an object file
-functions/a_3_3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/a_3_3.cpp.o
-.PHONY : functions/a_3_3.cpp.o
+functions/h_1_taylor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/h_1_taylor.cpp.o
+.PHONY : functions/h_1_taylor.cpp.o
 
-functions/a_3_3.i: functions/a_3_3.cpp.i
+functions/h_1_taylor.i: functions/h_1_taylor.cpp.i
 
-.PHONY : functions/a_3_3.i
+.PHONY : functions/h_1_taylor.i
 
 # target to preprocess a source file
-functions/a_3_3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/a_3_3.cpp.i
-.PHONY : functions/a_3_3.cpp.i
+functions/h_1_taylor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/h_1_taylor.cpp.i
+.PHONY : functions/h_1_taylor.cpp.i
 
-functions/a_3_3.s: functions/a_3_3.cpp.s
+functions/h_1_taylor.s: functions/h_1_taylor.cpp.s
 
-.PHONY : functions/a_3_3.s
+.PHONY : functions/h_1_taylor.s
 
 # target to generate assembly for a file
-functions/a_3_3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/a_3_3.cpp.s
-.PHONY : functions/a_3_3.cpp.s
+functions/h_1_taylor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/h_1_taylor.cpp.s
+.PHONY : functions/h_1_taylor.cpp.s
 
-functions/alpha_1_1.o: functions/alpha_1_1.cpp.o
+functions/h_2.o: functions/h_2.cpp.o
 
-.PHONY : functions/alpha_1_1.o
+.PHONY : functions/h_2.o
 
 # target to build an object file
-functions/alpha_1_1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/alpha_1_1.cpp.o
-.PHONY : functions/alpha_1_1.cpp.o
+functions/h_2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/h_2.cpp.o
+.PHONY : functions/h_2.cpp.o
 
-functions/alpha_1_1.i: functions/alpha_1_1.cpp.i
+functions/h_2.i: functions/h_2.cpp.i
 
-.PHONY : functions/alpha_1_1.i
+.PHONY : functions/h_2.i
 
 # target to preprocess a source file
-functions/alpha_1_1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/alpha_1_1.cpp.i
-.PHONY : functions/alpha_1_1.cpp.i
+functions/h_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/h_2.cpp.i
+.PHONY : functions/h_2.cpp.i
 
-functions/alpha_1_1.s: functions/alpha_1_1.cpp.s
+functions/h_2.s: functions/h_2.cpp.s
 
-.PHONY : functions/alpha_1_1.s
+.PHONY : functions/h_2.s
 
 # target to generate assembly for a file
-functions/alpha_1_1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/alpha_1_1.cpp.s
-.PHONY : functions/alpha_1_1.cpp.s
+functions/h_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/h_2.cpp.s
+.PHONY : functions/h_2.cpp.s
 
-functions/alpha_1_1_taylor.o: functions/alpha_1_1_taylor.cpp.o
+functions/h_2_taylor.o: functions/h_2_taylor.cpp.o
 
-.PHONY : functions/alpha_1_1_taylor.o
+.PHONY : functions/h_2_taylor.o
 
 # target to build an object file
-functions/alpha_1_1_taylor.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/alpha_1_1_taylor.cpp.o
-.PHONY : functions/alpha_1_1_taylor.cpp.o
+functions/h_2_taylor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/h_2_taylor.cpp.o
+.PHONY : functions/h_2_taylor.cpp.o
 
-functions/alpha_1_1_taylor.i: functions/alpha_1_1_taylor.cpp.i
+functions/h_2_taylor.i: functions/h_2_taylor.cpp.i
 
-.PHONY : functions/alpha_1_1_taylor.i
+.PHONY : functions/h_2_taylor.i
 
 # target to preprocess a source file
-functions/alpha_1_1_taylor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/alpha_1_1_taylor.cpp.i
-.PHONY : functions/alpha_1_1_taylor.cpp.i
+functions/h_2_taylor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/h_2_taylor.cpp.i
+.PHONY : functions/h_2_taylor.cpp.i
 
-functions/alpha_1_1_taylor.s: functions/alpha_1_1_taylor.cpp.s
+functions/h_2_taylor.s: functions/h_2_taylor.cpp.s
 
-.PHONY : functions/alpha_1_1_taylor.s
+.PHONY : functions/h_2_taylor.s
 
 # target to generate assembly for a file
-functions/alpha_1_1_taylor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/alpha_1_1_taylor.cpp.s
-.PHONY : functions/alpha_1_1_taylor.cpp.s
+functions/h_2_taylor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/h_2_taylor.cpp.s
+.PHONY : functions/h_2_taylor.cpp.s
 
-functions/alpha_2_1.o: functions/alpha_2_1.cpp.o
+functions/k_1.o: functions/k_1.cpp.o
 
-.PHONY : functions/alpha_2_1.o
+.PHONY : functions/k_1.o
 
 # target to build an object file
-functions/alpha_2_1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/alpha_2_1.cpp.o
-.PHONY : functions/alpha_2_1.cpp.o
+functions/k_1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/k_1.cpp.o
+.PHONY : functions/k_1.cpp.o
 
-functions/alpha_2_1.i: functions/alpha_2_1.cpp.i
+functions/k_1.i: functions/k_1.cpp.i
 
-.PHONY : functions/alpha_2_1.i
+.PHONY : functions/k_1.i
 
 # target to preprocess a source file
-functions/alpha_2_1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/alpha_2_1.cpp.i
-.PHONY : functions/alpha_2_1.cpp.i
+functions/k_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/k_1.cpp.i
+.PHONY : functions/k_1.cpp.i
 
-functions/alpha_2_1.s: functions/alpha_2_1.cpp.s
+functions/k_1.s: functions/k_1.cpp.s
 
-.PHONY : functions/alpha_2_1.s
+.PHONY : functions/k_1.s
 
 # target to generate assembly for a file
-functions/alpha_2_1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/alpha_2_1.cpp.s
-.PHONY : functions/alpha_2_1.cpp.s
+functions/k_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/k_1.cpp.s
+.PHONY : functions/k_1.cpp.s
 
-functions/alpha_2_2.o: functions/alpha_2_2.cpp.o
+functions/k_1_1.o: functions/k_1_1.cpp.o
 
-.PHONY : functions/alpha_2_2.o
+.PHONY : functions/k_1_1.o
 
 # target to build an object file
-functions/alpha_2_2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/alpha_2_2.cpp.o
-.PHONY : functions/alpha_2_2.cpp.o
+functions/k_1_1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/k_1_1.cpp.o
+.PHONY : functions/k_1_1.cpp.o
 
-functions/alpha_2_2.i: functions/alpha_2_2.cpp.i
+functions/k_1_1.i: functions/k_1_1.cpp.i
 
-.PHONY : functions/alpha_2_2.i
+.PHONY : functions/k_1_1.i
 
 # target to preprocess a source file
-functions/alpha_2_2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/alpha_2_2.cpp.i
-.PHONY : functions/alpha_2_2.cpp.i
+functions/k_1_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/k_1_1.cpp.i
+.PHONY : functions/k_1_1.cpp.i
 
-functions/alpha_2_2.s: functions/alpha_2_2.cpp.s
+functions/k_1_1.s: functions/k_1_1.cpp.s
 
-.PHONY : functions/alpha_2_2.s
+.PHONY : functions/k_1_1.s
 
 # target to generate assembly for a file
-functions/alpha_2_2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/alpha_2_2.cpp.s
-.PHONY : functions/alpha_2_2.cpp.s
+functions/k_1_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/k_1_1.cpp.s
+.PHONY : functions/k_1_1.cpp.s
 
-functions/alpha_3_1.o: functions/alpha_3_1.cpp.o
+functions/k_1_1_taylor.o: functions/k_1_1_taylor.cpp.o
 
-.PHONY : functions/alpha_3_1.o
+.PHONY : functions/k_1_1_taylor.o
 
 # target to build an object file
-functions/alpha_3_1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/alpha_3_1.cpp.o
-.PHONY : functions/alpha_3_1.cpp.o
+functions/k_1_1_taylor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/k_1_1_taylor.cpp.o
+.PHONY : functions/k_1_1_taylor.cpp.o
 
-functions/alpha_3_1.i: functions/alpha_3_1.cpp.i
+functions/k_1_1_taylor.i: functions/k_1_1_taylor.cpp.i
 
-.PHONY : functions/alpha_3_1.i
+.PHONY : functions/k_1_1_taylor.i
 
 # target to preprocess a source file
-functions/alpha_3_1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/alpha_3_1.cpp.i
-.PHONY : functions/alpha_3_1.cpp.i
+functions/k_1_1_taylor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/k_1_1_taylor.cpp.i
+.PHONY : functions/k_1_1_taylor.cpp.i
 
-functions/alpha_3_1.s: functions/alpha_3_1.cpp.s
+functions/k_1_1_taylor.s: functions/k_1_1_taylor.cpp.s
 
-.PHONY : functions/alpha_3_1.s
+.PHONY : functions/k_1_1_taylor.s
 
 # target to generate assembly for a file
-functions/alpha_3_1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/alpha_3_1.cpp.s
-.PHONY : functions/alpha_3_1.cpp.s
+functions/k_1_1_taylor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/k_1_1_taylor.cpp.s
+.PHONY : functions/k_1_1_taylor.cpp.s
 
-functions/alpha_3_2.o: functions/alpha_3_2.cpp.o
+functions/k_1_taylor.o: functions/k_1_taylor.cpp.o
 
-.PHONY : functions/alpha_3_2.o
+.PHONY : functions/k_1_taylor.o
 
 # target to build an object file
-functions/alpha_3_2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/alpha_3_2.cpp.o
-.PHONY : functions/alpha_3_2.cpp.o
+functions/k_1_taylor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/k_1_taylor.cpp.o
+.PHONY : functions/k_1_taylor.cpp.o
 
-functions/alpha_3_2.i: functions/alpha_3_2.cpp.i
+functions/k_1_taylor.i: functions/k_1_taylor.cpp.i
 
-.PHONY : functions/alpha_3_2.i
+.PHONY : functions/k_1_taylor.i
 
 # target to preprocess a source file
-functions/alpha_3_2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/alpha_3_2.cpp.i
-.PHONY : functions/alpha_3_2.cpp.i
+functions/k_1_taylor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/k_1_taylor.cpp.i
+.PHONY : functions/k_1_taylor.cpp.i
 
-functions/alpha_3_2.s: functions/alpha_3_2.cpp.s
+functions/k_1_taylor.s: functions/k_1_taylor.cpp.s
 
-.PHONY : functions/alpha_3_2.s
+.PHONY : functions/k_1_taylor.s
 
 # target to generate assembly for a file
-functions/alpha_3_2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/alpha_3_2.cpp.s
-.PHONY : functions/alpha_3_2.cpp.s
+functions/k_1_taylor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/k_1_taylor.cpp.s
+.PHONY : functions/k_1_taylor.cpp.s
 
-functions/alpha_3_3.o: functions/alpha_3_3.cpp.o
+functions/k_2.o: functions/k_2.cpp.o
 
-.PHONY : functions/alpha_3_3.o
+.PHONY : functions/k_2.o
 
 # target to build an object file
-functions/alpha_3_3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/alpha_3_3.cpp.o
-.PHONY : functions/alpha_3_3.cpp.o
+functions/k_2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/k_2.cpp.o
+.PHONY : functions/k_2.cpp.o
 
-functions/alpha_3_3.i: functions/alpha_3_3.cpp.i
+functions/k_2.i: functions/k_2.cpp.i
 
-.PHONY : functions/alpha_3_3.i
+.PHONY : functions/k_2.i
 
 # target to preprocess a source file
-functions/alpha_3_3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/alpha_3_3.cpp.i
-.PHONY : functions/alpha_3_3.cpp.i
+functions/k_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/k_2.cpp.i
+.PHONY : functions/k_2.cpp.i
 
-functions/alpha_3_3.s: functions/alpha_3_3.cpp.s
+functions/k_2.s: functions/k_2.cpp.s
 
-.PHONY : functions/alpha_3_3.s
+.PHONY : functions/k_2.s
 
 # target to generate assembly for a file
-functions/alpha_3_3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/alpha_3_3.cpp.s
-.PHONY : functions/alpha_3_3.cpp.s
+functions/k_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/k_2.cpp.s
+.PHONY : functions/k_2.cpp.s
 
-functions/wcrl_1_1.o: functions/wcrl_1_1.cpp.o
+functions/k_2_taylor.o: functions/k_2_taylor.cpp.o
 
-.PHONY : functions/wcrl_1_1.o
+.PHONY : functions/k_2_taylor.o
 
 # target to build an object file
-functions/wcrl_1_1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/wcrl_1_1.cpp.o
-.PHONY : functions/wcrl_1_1.cpp.o
+functions/k_2_taylor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/k_2_taylor.cpp.o
+.PHONY : functions/k_2_taylor.cpp.o
 
-functions/wcrl_1_1.i: functions/wcrl_1_1.cpp.i
+functions/k_2_taylor.i: functions/k_2_taylor.cpp.i
 
-.PHONY : functions/wcrl_1_1.i
+.PHONY : functions/k_2_taylor.i
 
 # target to preprocess a source file
-functions/wcrl_1_1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/wcrl_1_1.cpp.i
-.PHONY : functions/wcrl_1_1.cpp.i
+functions/k_2_taylor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/k_2_taylor.cpp.i
+.PHONY : functions/k_2_taylor.cpp.i
 
-functions/wcrl_1_1.s: functions/wcrl_1_1.cpp.s
+functions/k_2_taylor.s: functions/k_2_taylor.cpp.s
 
-.PHONY : functions/wcrl_1_1.s
+.PHONY : functions/k_2_taylor.s
 
 # target to generate assembly for a file
-functions/wcrl_1_1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/wcrl_1_1.cpp.s
-.PHONY : functions/wcrl_1_1.cpp.s
+functions/k_2_taylor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/k_2_taylor.cpp.s
+.PHONY : functions/k_2_taylor.cpp.s
 
-functions/wcrl_1_1_taylor.o: functions/wcrl_1_1_taylor.cpp.o
+functions/mytestfunc.o: functions/mytestfunc.cpp.o
 
-.PHONY : functions/wcrl_1_1_taylor.o
+.PHONY : functions/mytestfunc.o
 
 # target to build an object file
-functions/wcrl_1_1_taylor.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/wcrl_1_1_taylor.cpp.o
-.PHONY : functions/wcrl_1_1_taylor.cpp.o
+functions/mytestfunc.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/mytestfunc.cpp.o
+.PHONY : functions/mytestfunc.cpp.o
 
-functions/wcrl_1_1_taylor.i: functions/wcrl_1_1_taylor.cpp.i
+functions/mytestfunc.i: functions/mytestfunc.cpp.i
 
-.PHONY : functions/wcrl_1_1_taylor.i
+.PHONY : functions/mytestfunc.i
 
 # target to preprocess a source file
-functions/wcrl_1_1_taylor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/wcrl_1_1_taylor.cpp.i
-.PHONY : functions/wcrl_1_1_taylor.cpp.i
+functions/mytestfunc.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/mytestfunc.cpp.i
+.PHONY : functions/mytestfunc.cpp.i
 
-functions/wcrl_1_1_taylor.s: functions/wcrl_1_1_taylor.cpp.s
+functions/mytestfunc.s: functions/mytestfunc.cpp.s
 
-.PHONY : functions/wcrl_1_1_taylor.s
+.PHONY : functions/mytestfunc.s
 
 # target to generate assembly for a file
-functions/wcrl_1_1_taylor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/wcrl_1_1_taylor.cpp.s
-.PHONY : functions/wcrl_1_1_taylor.cpp.s
+functions/mytestfunc.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/mytestfunc.cpp.s
+.PHONY : functions/mytestfunc.cpp.s
 
-functions/wcrl_2_1.o: functions/wcrl_2_1.cpp.o
+functions/q_1.o: functions/q_1.cpp.o
 
-.PHONY : functions/wcrl_2_1.o
+.PHONY : functions/q_1.o
 
 # target to build an object file
-functions/wcrl_2_1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/wcrl_2_1.cpp.o
-.PHONY : functions/wcrl_2_1.cpp.o
+functions/q_1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/q_1.cpp.o
+.PHONY : functions/q_1.cpp.o
 
-functions/wcrl_2_1.i: functions/wcrl_2_1.cpp.i
+functions/q_1.i: functions/q_1.cpp.i
 
-.PHONY : functions/wcrl_2_1.i
+.PHONY : functions/q_1.i
 
 # target to preprocess a source file
-functions/wcrl_2_1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/wcrl_2_1.cpp.i
-.PHONY : functions/wcrl_2_1.cpp.i
+functions/q_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/q_1.cpp.i
+.PHONY : functions/q_1.cpp.i
 
-functions/wcrl_2_1.s: functions/wcrl_2_1.cpp.s
+functions/q_1.s: functions/q_1.cpp.s
 
-.PHONY : functions/wcrl_2_1.s
+.PHONY : functions/q_1.s
 
 # target to generate assembly for a file
-functions/wcrl_2_1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/wcrl_2_1.cpp.s
-.PHONY : functions/wcrl_2_1.cpp.s
+functions/q_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/q_1.cpp.s
+.PHONY : functions/q_1.cpp.s
 
-functions/wcrl_2_2.o: functions/wcrl_2_2.cpp.o
+functions/q_1_1.o: functions/q_1_1.cpp.o
 
-.PHONY : functions/wcrl_2_2.o
+.PHONY : functions/q_1_1.o
 
 # target to build an object file
-functions/wcrl_2_2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/wcrl_2_2.cpp.o
-.PHONY : functions/wcrl_2_2.cpp.o
+functions/q_1_1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/q_1_1.cpp.o
+.PHONY : functions/q_1_1.cpp.o
 
-functions/wcrl_2_2.i: functions/wcrl_2_2.cpp.i
+functions/q_1_1.i: functions/q_1_1.cpp.i
 
-.PHONY : functions/wcrl_2_2.i
+.PHONY : functions/q_1_1.i
 
 # target to preprocess a source file
-functions/wcrl_2_2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/wcrl_2_2.cpp.i
-.PHONY : functions/wcrl_2_2.cpp.i
+functions/q_1_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/q_1_1.cpp.i
+.PHONY : functions/q_1_1.cpp.i
 
-functions/wcrl_2_2.s: functions/wcrl_2_2.cpp.s
+functions/q_1_1.s: functions/q_1_1.cpp.s
 
-.PHONY : functions/wcrl_2_2.s
+.PHONY : functions/q_1_1.s
 
 # target to generate assembly for a file
-functions/wcrl_2_2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/wcrl_2_2.cpp.s
-.PHONY : functions/wcrl_2_2.cpp.s
+functions/q_1_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/q_1_1.cpp.s
+.PHONY : functions/q_1_1.cpp.s
 
-functions/wcrl_3_1.o: functions/wcrl_3_1.cpp.o
+functions/q_1_1_taylor.o: functions/q_1_1_taylor.cpp.o
 
-.PHONY : functions/wcrl_3_1.o
+.PHONY : functions/q_1_1_taylor.o
 
 # target to build an object file
-functions/wcrl_3_1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/wcrl_3_1.cpp.o
-.PHONY : functions/wcrl_3_1.cpp.o
+functions/q_1_1_taylor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/q_1_1_taylor.cpp.o
+.PHONY : functions/q_1_1_taylor.cpp.o
 
-functions/wcrl_3_1.i: functions/wcrl_3_1.cpp.i
+functions/q_1_1_taylor.i: functions/q_1_1_taylor.cpp.i
 
-.PHONY : functions/wcrl_3_1.i
+.PHONY : functions/q_1_1_taylor.i
 
 # target to preprocess a source file
-functions/wcrl_3_1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/wcrl_3_1.cpp.i
-.PHONY : functions/wcrl_3_1.cpp.i
+functions/q_1_1_taylor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/q_1_1_taylor.cpp.i
+.PHONY : functions/q_1_1_taylor.cpp.i
 
-functions/wcrl_3_1.s: functions/wcrl_3_1.cpp.s
+functions/q_1_1_taylor.s: functions/q_1_1_taylor.cpp.s
 
-.PHONY : functions/wcrl_3_1.s
+.PHONY : functions/q_1_1_taylor.s
 
 # target to generate assembly for a file
-functions/wcrl_3_1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/wcrl_3_1.cpp.s
-.PHONY : functions/wcrl_3_1.cpp.s
+functions/q_1_1_taylor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/q_1_1_taylor.cpp.s
+.PHONY : functions/q_1_1_taylor.cpp.s
 
-functions/wcrl_3_2.o: functions/wcrl_3_2.cpp.o
+functions/q_1_taylor.o: functions/q_1_taylor.cpp.o
 
-.PHONY : functions/wcrl_3_2.o
+.PHONY : functions/q_1_taylor.o
 
 # target to build an object file
-functions/wcrl_3_2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/wcrl_3_2.cpp.o
-.PHONY : functions/wcrl_3_2.cpp.o
+functions/q_1_taylor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/q_1_taylor.cpp.o
+.PHONY : functions/q_1_taylor.cpp.o
 
-functions/wcrl_3_2.i: functions/wcrl_3_2.cpp.i
+functions/q_1_taylor.i: functions/q_1_taylor.cpp.i
 
-.PHONY : functions/wcrl_3_2.i
+.PHONY : functions/q_1_taylor.i
 
 # target to preprocess a source file
-functions/wcrl_3_2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/wcrl_3_2.cpp.i
-.PHONY : functions/wcrl_3_2.cpp.i
+functions/q_1_taylor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/q_1_taylor.cpp.i
+.PHONY : functions/q_1_taylor.cpp.i
 
-functions/wcrl_3_2.s: functions/wcrl_3_2.cpp.s
+functions/q_1_taylor.s: functions/q_1_taylor.cpp.s
 
-.PHONY : functions/wcrl_3_2.s
+.PHONY : functions/q_1_taylor.s
 
 # target to generate assembly for a file
-functions/wcrl_3_2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/wcrl_3_2.cpp.s
-.PHONY : functions/wcrl_3_2.cpp.s
+functions/q_1_taylor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/q_1_taylor.cpp.s
+.PHONY : functions/q_1_taylor.cpp.s
 
-functions/wcrl_3_3.o: functions/wcrl_3_3.cpp.o
+functions/q_2.o: functions/q_2.cpp.o
 
-.PHONY : functions/wcrl_3_3.o
+.PHONY : functions/q_2.o
 
 # target to build an object file
-functions/wcrl_3_3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/wcrl_3_3.cpp.o
-.PHONY : functions/wcrl_3_3.cpp.o
+functions/q_2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/q_2.cpp.o
+.PHONY : functions/q_2.cpp.o
 
-functions/wcrl_3_3.i: functions/wcrl_3_3.cpp.i
+functions/q_2.i: functions/q_2.cpp.i
 
-.PHONY : functions/wcrl_3_3.i
+.PHONY : functions/q_2.i
 
 # target to preprocess a source file
-functions/wcrl_3_3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/wcrl_3_3.cpp.i
-.PHONY : functions/wcrl_3_3.cpp.i
+functions/q_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/q_2.cpp.i
+.PHONY : functions/q_2.cpp.i
 
-functions/wcrl_3_3.s: functions/wcrl_3_3.cpp.s
+functions/q_2.s: functions/q_2.cpp.s
 
-.PHONY : functions/wcrl_3_3.s
+.PHONY : functions/q_2.s
 
 # target to generate assembly for a file
-functions/wcrl_3_3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/wcrl_3_3.cpp.s
-.PHONY : functions/wcrl_3_3.cpp.s
+functions/q_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/q_2.cpp.s
+.PHONY : functions/q_2.cpp.s
+
+functions/q_2_taylor.o: functions/q_2_taylor.cpp.o
+
+.PHONY : functions/q_2_taylor.o
+
+# target to build an object file
+functions/q_2_taylor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/q_2_taylor.cpp.o
+.PHONY : functions/q_2_taylor.cpp.o
+
+functions/q_2_taylor.i: functions/q_2_taylor.cpp.i
+
+.PHONY : functions/q_2_taylor.i
+
+# target to preprocess a source file
+functions/q_2_taylor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/q_2_taylor.cpp.i
+.PHONY : functions/q_2_taylor.cpp.i
+
+functions/q_2_taylor.s: functions/q_2_taylor.cpp.s
+
+.PHONY : functions/q_2_taylor.s
+
+# target to generate assembly for a file
+functions/q_2_taylor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcs.dir/build.make CMakeFiles/funcs.dir/functions/q_2_taylor.cpp.s
+.PHONY : functions/q_2_taylor.cpp.s
 
 src/binder.o: src/binder.cpp.o
 
@@ -1138,111 +1138,111 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... funcs"
 	@echo "... motionlib"
-	@echo "... functions/JR_1_1.o"
-	@echo "... functions/JR_1_1.i"
-	@echo "... functions/JR_1_1.s"
-	@echo "... functions/JR_1_1_taylor.o"
-	@echo "... functions/JR_1_1_taylor.i"
-	@echo "... functions/JR_1_1_taylor.s"
-	@echo "... functions/JR_2_1.o"
-	@echo "... functions/JR_2_1.i"
-	@echo "... functions/JR_2_1.s"
-	@echo "... functions/JR_2_2.o"
-	@echo "... functions/JR_2_2.i"
-	@echo "... functions/JR_2_2.s"
-	@echo "... functions/JR_3_1.o"
-	@echo "... functions/JR_3_1.i"
-	@echo "... functions/JR_3_1.s"
-	@echo "... functions/JR_3_2.o"
-	@echo "... functions/JR_3_2.i"
-	@echo "... functions/JR_3_2.s"
-	@echo "... functions/JR_3_3.o"
-	@echo "... functions/JR_3_3.i"
-	@echo "... functions/JR_3_3.s"
-	@echo "... functions/JT_1_1.o"
-	@echo "... functions/JT_1_1.i"
-	@echo "... functions/JT_1_1.s"
-	@echo "... functions/JT_1_1_taylor.o"
-	@echo "... functions/JT_1_1_taylor.i"
-	@echo "... functions/JT_1_1_taylor.s"
-	@echo "... functions/JT_2_1.o"
-	@echo "... functions/JT_2_1.i"
-	@echo "... functions/JT_2_1.s"
-	@echo "... functions/JT_2_2.o"
-	@echo "... functions/JT_2_2.i"
-	@echo "... functions/JT_2_2.s"
-	@echo "... functions/JT_3_1.o"
-	@echo "... functions/JT_3_1.i"
-	@echo "... functions/JT_3_1.s"
-	@echo "... functions/JT_3_2.o"
-	@echo "... functions/JT_3_2.i"
-	@echo "... functions/JT_3_2.s"
-	@echo "... functions/JT_3_3.o"
-	@echo "... functions/JT_3_3.i"
-	@echo "... functions/JT_3_3.s"
-	@echo "... functions/a_1_1.o"
-	@echo "... functions/a_1_1.i"
-	@echo "... functions/a_1_1.s"
-	@echo "... functions/a_1_1_taylor.o"
-	@echo "... functions/a_1_1_taylor.i"
-	@echo "... functions/a_1_1_taylor.s"
-	@echo "... functions/a_2_1.o"
-	@echo "... functions/a_2_1.i"
-	@echo "... functions/a_2_1.s"
-	@echo "... functions/a_2_2.o"
-	@echo "... functions/a_2_2.i"
-	@echo "... functions/a_2_2.s"
-	@echo "... functions/a_3_1.o"
-	@echo "... functions/a_3_1.i"
-	@echo "... functions/a_3_1.s"
-	@echo "... functions/a_3_2.o"
-	@echo "... functions/a_3_2.i"
-	@echo "... functions/a_3_2.s"
-	@echo "... functions/a_3_3.o"
-	@echo "... functions/a_3_3.i"
-	@echo "... functions/a_3_3.s"
-	@echo "... functions/alpha_1_1.o"
-	@echo "... functions/alpha_1_1.i"
-	@echo "... functions/alpha_1_1.s"
-	@echo "... functions/alpha_1_1_taylor.o"
-	@echo "... functions/alpha_1_1_taylor.i"
-	@echo "... functions/alpha_1_1_taylor.s"
-	@echo "... functions/alpha_2_1.o"
-	@echo "... functions/alpha_2_1.i"
-	@echo "... functions/alpha_2_1.s"
-	@echo "... functions/alpha_2_2.o"
-	@echo "... functions/alpha_2_2.i"
-	@echo "... functions/alpha_2_2.s"
-	@echo "... functions/alpha_3_1.o"
-	@echo "... functions/alpha_3_1.i"
-	@echo "... functions/alpha_3_1.s"
-	@echo "... functions/alpha_3_2.o"
-	@echo "... functions/alpha_3_2.i"
-	@echo "... functions/alpha_3_2.s"
-	@echo "... functions/alpha_3_3.o"
-	@echo "... functions/alpha_3_3.i"
-	@echo "... functions/alpha_3_3.s"
-	@echo "... functions/wcrl_1_1.o"
-	@echo "... functions/wcrl_1_1.i"
-	@echo "... functions/wcrl_1_1.s"
-	@echo "... functions/wcrl_1_1_taylor.o"
-	@echo "... functions/wcrl_1_1_taylor.i"
-	@echo "... functions/wcrl_1_1_taylor.s"
-	@echo "... functions/wcrl_2_1.o"
-	@echo "... functions/wcrl_2_1.i"
-	@echo "... functions/wcrl_2_1.s"
-	@echo "... functions/wcrl_2_2.o"
-	@echo "... functions/wcrl_2_2.i"
-	@echo "... functions/wcrl_2_2.s"
-	@echo "... functions/wcrl_3_1.o"
-	@echo "... functions/wcrl_3_1.i"
-	@echo "... functions/wcrl_3_1.s"
-	@echo "... functions/wcrl_3_2.o"
-	@echo "... functions/wcrl_3_2.i"
-	@echo "... functions/wcrl_3_2.s"
-	@echo "... functions/wcrl_3_3.o"
-	@echo "... functions/wcrl_3_3.i"
-	@echo "... functions/wcrl_3_3.s"
+	@echo "... functions/H_1.o"
+	@echo "... functions/H_1.i"
+	@echo "... functions/H_1.s"
+	@echo "... functions/H_1_taylor.o"
+	@echo "... functions/H_1_taylor.i"
+	@echo "... functions/H_1_taylor.s"
+	@echo "... functions/H_2.o"
+	@echo "... functions/H_2.i"
+	@echo "... functions/H_2.s"
+	@echo "... functions/H_2_taylor.o"
+	@echo "... functions/H_2_taylor.i"
+	@echo "... functions/H_2_taylor.s"
+	@echo "... functions/M_1.o"
+	@echo "... functions/M_1.i"
+	@echo "... functions/M_1.s"
+	@echo "... functions/M_1_1.o"
+	@echo "... functions/M_1_1.i"
+	@echo "... functions/M_1_1.s"
+	@echo "... functions/M_1_1_taylor.o"
+	@echo "... functions/M_1_1_taylor.i"
+	@echo "... functions/M_1_1_taylor.s"
+	@echo "... functions/M_1_taylor.o"
+	@echo "... functions/M_1_taylor.i"
+	@echo "... functions/M_1_taylor.s"
+	@echo "... functions/M_2.o"
+	@echo "... functions/M_2.i"
+	@echo "... functions/M_2.s"
+	@echo "... functions/M_2_taylor.o"
+	@echo "... functions/M_2_taylor.i"
+	@echo "... functions/M_2_taylor.s"
+	@echo "... functions/b_1.o"
+	@echo "... functions/b_1.i"
+	@echo "... functions/b_1.s"
+	@echo "... functions/b_1_taylor.o"
+	@echo "... functions/b_1_taylor.i"
+	@echo "... functions/b_1_taylor.s"
+	@echo "... functions/b_2.o"
+	@echo "... functions/b_2.i"
+	@echo "... functions/b_2.s"
+	@echo "... functions/b_2_taylor.o"
+	@echo "... functions/b_2_taylor.i"
+	@echo "... functions/b_2_taylor.s"
+	@echo "... functions/dH_1.o"
+	@echo "... functions/dH_1.i"
+	@echo "... functions/dH_1.s"
+	@echo "... functions/dH_1_taylor.o"
+	@echo "... functions/dH_1_taylor.i"
+	@echo "... functions/dH_1_taylor.s"
+	@echo "... functions/dH_2.o"
+	@echo "... functions/dH_2.i"
+	@echo "... functions/dH_2.s"
+	@echo "... functions/dH_2_taylor.o"
+	@echo "... functions/dH_2_taylor.i"
+	@echo "... functions/dH_2_taylor.s"
+	@echo "... functions/h_1.o"
+	@echo "... functions/h_1.i"
+	@echo "... functions/h_1.s"
+	@echo "... functions/h_1_taylor.o"
+	@echo "... functions/h_1_taylor.i"
+	@echo "... functions/h_1_taylor.s"
+	@echo "... functions/h_2.o"
+	@echo "... functions/h_2.i"
+	@echo "... functions/h_2.s"
+	@echo "... functions/h_2_taylor.o"
+	@echo "... functions/h_2_taylor.i"
+	@echo "... functions/h_2_taylor.s"
+	@echo "... functions/k_1.o"
+	@echo "... functions/k_1.i"
+	@echo "... functions/k_1.s"
+	@echo "... functions/k_1_1.o"
+	@echo "... functions/k_1_1.i"
+	@echo "... functions/k_1_1.s"
+	@echo "... functions/k_1_1_taylor.o"
+	@echo "... functions/k_1_1_taylor.i"
+	@echo "... functions/k_1_1_taylor.s"
+	@echo "... functions/k_1_taylor.o"
+	@echo "... functions/k_1_taylor.i"
+	@echo "... functions/k_1_taylor.s"
+	@echo "... functions/k_2.o"
+	@echo "... functions/k_2.i"
+	@echo "... functions/k_2.s"
+	@echo "... functions/k_2_taylor.o"
+	@echo "... functions/k_2_taylor.i"
+	@echo "... functions/k_2_taylor.s"
+	@echo "... functions/mytestfunc.o"
+	@echo "... functions/mytestfunc.i"
+	@echo "... functions/mytestfunc.s"
+	@echo "... functions/q_1.o"
+	@echo "... functions/q_1.i"
+	@echo "... functions/q_1.s"
+	@echo "... functions/q_1_1.o"
+	@echo "... functions/q_1_1.i"
+	@echo "... functions/q_1_1.s"
+	@echo "... functions/q_1_1_taylor.o"
+	@echo "... functions/q_1_1_taylor.i"
+	@echo "... functions/q_1_1_taylor.s"
+	@echo "... functions/q_1_taylor.o"
+	@echo "... functions/q_1_taylor.i"
+	@echo "... functions/q_1_taylor.s"
+	@echo "... functions/q_2.o"
+	@echo "... functions/q_2.i"
+	@echo "... functions/q_2.s"
+	@echo "... functions/q_2_taylor.o"
+	@echo "... functions/q_2_taylor.i"
+	@echo "... functions/q_2_taylor.s"
 	@echo "... src/binder.o"
 	@echo "... src/binder.i"
 	@echo "... src/binder.s"

@@ -47,6 +47,12 @@ GENERATE EQUATIONS OF MOTION (EOM):
 				#include "rtwtypes.h"
 				#include <cstddef>
 				#include <cstdlib>
+		
+		in some functions like q_taylor
+		
+			- remove line #include "rt_defines.h"
+			
+			- replace RT_PI with M_PI
 	
 	To use the functions in Python
 	

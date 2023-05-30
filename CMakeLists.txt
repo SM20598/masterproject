@@ -12,3 +12,4 @@ add_subdirectory(pybind11)
 pybind11_add_module(motionlib src/binder.cpp)
 target_link_libraries(motionlib PRIVATE funcs)
 
+#target_link_libraries(motionlib PRIVATE testfuncs)

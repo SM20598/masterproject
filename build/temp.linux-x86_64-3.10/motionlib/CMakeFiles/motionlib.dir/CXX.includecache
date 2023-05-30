@@ -262,75 +262,47 @@ optional
 string_view
 -
 
-/home/lastsean/CLionProjects/Masterproject/functions/JR_1_1.h
+/home/lastsean/CLionProjects/Masterproject/functions/M_1.h
 
-/home/lastsean/CLionProjects/Masterproject/functions/JR_1_1_taylor.h
+/home/lastsean/CLionProjects/Masterproject/functions/M_1_taylor.h
 
-/home/lastsean/CLionProjects/Masterproject/functions/JR_2_1.h
+/home/lastsean/CLionProjects/Masterproject/functions/M_2.h
 
-/home/lastsean/CLionProjects/Masterproject/functions/JR_2_2.h
+/home/lastsean/CLionProjects/Masterproject/functions/M_2_taylor.h
 
-/home/lastsean/CLionProjects/Masterproject/functions/JR_3_1.h
+/home/lastsean/CLionProjects/Masterproject/functions/b_1.h
 
-/home/lastsean/CLionProjects/Masterproject/functions/JR_3_2.h
+/home/lastsean/CLionProjects/Masterproject/functions/b_1_taylor.h
 
-/home/lastsean/CLionProjects/Masterproject/functions/JR_3_3.h
+/home/lastsean/CLionProjects/Masterproject/functions/b_2.h
 
-/home/lastsean/CLionProjects/Masterproject/functions/JT_1_1.h
+/home/lastsean/CLionProjects/Masterproject/functions/b_2_taylor.h
 
-/home/lastsean/CLionProjects/Masterproject/functions/JT_1_1_taylor.h
+/home/lastsean/CLionProjects/Masterproject/functions/h_1.h
 
-/home/lastsean/CLionProjects/Masterproject/functions/JT_2_1.h
+/home/lastsean/CLionProjects/Masterproject/functions/h_1_taylor.h
 
-/home/lastsean/CLionProjects/Masterproject/functions/JT_2_2.h
+/home/lastsean/CLionProjects/Masterproject/functions/h_2.h
 
-/home/lastsean/CLionProjects/Masterproject/functions/JT_3_1.h
+/home/lastsean/CLionProjects/Masterproject/functions/h_2_taylor.h
 
-/home/lastsean/CLionProjects/Masterproject/functions/JT_3_2.h
+/home/lastsean/CLionProjects/Masterproject/functions/k_1.h
 
-/home/lastsean/CLionProjects/Masterproject/functions/JT_3_3.h
+/home/lastsean/CLionProjects/Masterproject/functions/k_1_taylor.h
 
-/home/lastsean/CLionProjects/Masterproject/functions/a_1_1.h
+/home/lastsean/CLionProjects/Masterproject/functions/k_2.h
 
-/home/lastsean/CLionProjects/Masterproject/functions/a_1_1_taylor.h
+/home/lastsean/CLionProjects/Masterproject/functions/k_2_taylor.h
 
-/home/lastsean/CLionProjects/Masterproject/functions/a_2_1.h
+/home/lastsean/CLionProjects/Masterproject/functions/mytestfunc.h
 
-/home/lastsean/CLionProjects/Masterproject/functions/a_2_2.h
+/home/lastsean/CLionProjects/Masterproject/functions/q_1.h
 
-/home/lastsean/CLionProjects/Masterproject/functions/a_3_1.h
+/home/lastsean/CLionProjects/Masterproject/functions/q_1_taylor.h
 
-/home/lastsean/CLionProjects/Masterproject/functions/a_3_2.h
+/home/lastsean/CLionProjects/Masterproject/functions/q_2.h
 
-/home/lastsean/CLionProjects/Masterproject/functions/a_3_3.h
-
-/home/lastsean/CLionProjects/Masterproject/functions/alpha_1_1.h
-
-/home/lastsean/CLionProjects/Masterproject/functions/alpha_1_1_taylor.h
-
-/home/lastsean/CLionProjects/Masterproject/functions/alpha_2_1.h
-
-/home/lastsean/CLionProjects/Masterproject/functions/alpha_2_2.h
-
-/home/lastsean/CLionProjects/Masterproject/functions/alpha_3_1.h
-
-/home/lastsean/CLionProjects/Masterproject/functions/alpha_3_2.h
-
-/home/lastsean/CLionProjects/Masterproject/functions/alpha_3_3.h
-
-/home/lastsean/CLionProjects/Masterproject/functions/wcrl_1_1.h
-
-/home/lastsean/CLionProjects/Masterproject/functions/wcrl_1_1_taylor.h
-
-/home/lastsean/CLionProjects/Masterproject/functions/wcrl_2_1.h
-
-/home/lastsean/CLionProjects/Masterproject/functions/wcrl_2_2.h
-
-/home/lastsean/CLionProjects/Masterproject/functions/wcrl_3_1.h
-
-/home/lastsean/CLionProjects/Masterproject/functions/wcrl_3_2.h
-
-/home/lastsean/CLionProjects/Masterproject/functions/wcrl_3_3.h
+/home/lastsean/CLionProjects/Masterproject/functions/q_2_taylor.h
 
 /home/lastsean/CLionProjects/Masterproject/src/binder.cpp
 pybind11/pybind11.h
@@ -339,76 +311,48 @@ pybind11/numpy.h
 -
 iostream
 -
-../functions/a_1_1.h
-/home/lastsean/CLionProjects/Masterproject/functions/a_1_1.h
-../functions/a_2_1.h
-/home/lastsean/CLionProjects/Masterproject/functions/a_2_1.h
-../functions/a_2_2.h
-/home/lastsean/CLionProjects/Masterproject/functions/a_2_2.h
-../functions/a_3_1.h
-/home/lastsean/CLionProjects/Masterproject/functions/a_3_1.h
-../functions/a_3_2.h
-/home/lastsean/CLionProjects/Masterproject/functions/a_3_2.h
-../functions/a_3_3.h
-/home/lastsean/CLionProjects/Masterproject/functions/a_3_3.h
-../functions/a_1_1_taylor.h
-/home/lastsean/CLionProjects/Masterproject/functions/a_1_1_taylor.h
-../functions/alpha_1_1.h
-/home/lastsean/CLionProjects/Masterproject/functions/alpha_1_1.h
-../functions/alpha_2_1.h
-/home/lastsean/CLionProjects/Masterproject/functions/alpha_2_1.h
-../functions/alpha_2_2.h
-/home/lastsean/CLionProjects/Masterproject/functions/alpha_2_2.h
-../functions/alpha_3_1.h
-/home/lastsean/CLionProjects/Masterproject/functions/alpha_3_1.h
-../functions/alpha_3_2.h
-/home/lastsean/CLionProjects/Masterproject/functions/alpha_3_2.h
-../functions/alpha_3_3.h
-/home/lastsean/CLionProjects/Masterproject/functions/alpha_3_3.h
-../functions/alpha_1_1_taylor.h
-/home/lastsean/CLionProjects/Masterproject/functions/alpha_1_1_taylor.h
-../functions/JR_1_1.h
-/home/lastsean/CLionProjects/Masterproject/functions/JR_1_1.h
-../functions/JR_2_1.h
-/home/lastsean/CLionProjects/Masterproject/functions/JR_2_1.h
-../functions/JR_2_2.h
-/home/lastsean/CLionProjects/Masterproject/functions/JR_2_2.h
-../functions/JR_3_1.h
-/home/lastsean/CLionProjects/Masterproject/functions/JR_3_1.h
-../functions/JR_3_2.h
-/home/lastsean/CLionProjects/Masterproject/functions/JR_3_2.h
-../functions/JR_3_3.h
-/home/lastsean/CLionProjects/Masterproject/functions/JR_3_3.h
-../functions/JR_1_1_taylor.h
-/home/lastsean/CLionProjects/Masterproject/functions/JR_1_1_taylor.h
-../functions/JT_1_1.h
-/home/lastsean/CLionProjects/Masterproject/functions/JT_1_1.h
-../functions/JT_2_1.h
-/home/lastsean/CLionProjects/Masterproject/functions/JT_2_1.h
-../functions/JT_2_2.h
-/home/lastsean/CLionProjects/Masterproject/functions/JT_2_2.h
-../functions/JT_3_1.h
-/home/lastsean/CLionProjects/Masterproject/functions/JT_3_1.h
-../functions/JT_3_2.h
-/home/lastsean/CLionProjects/Masterproject/functions/JT_3_2.h
-../functions/JT_3_3.h
-/home/lastsean/CLionProjects/Masterproject/functions/JT_3_3.h
-../functions/JT_1_1_taylor.h
-/home/lastsean/CLionProjects/Masterproject/functions/JT_1_1_taylor.h
-../functions/wcrl_1_1.h
-/home/lastsean/CLionProjects/Masterproject/functions/wcrl_1_1.h
-../functions/wcrl_2_1.h
-/home/lastsean/CLionProjects/Masterproject/functions/wcrl_2_1.h
-../functions/wcrl_2_2.h
-/home/lastsean/CLionProjects/Masterproject/functions/wcrl_2_2.h
-../functions/wcrl_3_1.h
-/home/lastsean/CLionProjects/Masterproject/functions/wcrl_3_1.h
-../functions/wcrl_3_2.h
-/home/lastsean/CLionProjects/Masterproject/functions/wcrl_3_2.h
-../functions/wcrl_3_3.h
-/home/lastsean/CLionProjects/Masterproject/functions/wcrl_3_3.h
-../functions/wcrl_1_1_taylor.h
-/home/lastsean/CLionProjects/Masterproject/functions/wcrl_1_1_taylor.h
+../functions/M_1.h
+/home/lastsean/CLionProjects/Masterproject/functions/M_1.h
+../functions/M_2.h
+/home/lastsean/CLionProjects/Masterproject/functions/M_2.h
+../functions/M_1_taylor.h
+/home/lastsean/CLionProjects/Masterproject/functions/M_1_taylor.h
+../functions/M_2_taylor.h
+/home/lastsean/CLionProjects/Masterproject/functions/M_2_taylor.h
+../functions/k_1.h
+/home/lastsean/CLionProjects/Masterproject/functions/k_1.h
+../functions/k_2.h
+/home/lastsean/CLionProjects/Masterproject/functions/k_2.h
+../functions/k_1_taylor.h
+/home/lastsean/CLionProjects/Masterproject/functions/k_1_taylor.h
+../functions/k_2_taylor.h
+/home/lastsean/CLionProjects/Masterproject/functions/k_2_taylor.h
+../functions/q_1.h
+/home/lastsean/CLionProjects/Masterproject/functions/q_1.h
+../functions/q_2.h
+/home/lastsean/CLionProjects/Masterproject/functions/q_2.h
+../functions/q_1_taylor.h
+/home/lastsean/CLionProjects/Masterproject/functions/q_1_taylor.h
+../functions/q_2_taylor.h
+/home/lastsean/CLionProjects/Masterproject/functions/q_2_taylor.h
+../functions/b_1.h
+/home/lastsean/CLionProjects/Masterproject/functions/b_1.h
+../functions/b_2.h
+/home/lastsean/CLionProjects/Masterproject/functions/b_2.h
+../functions/b_1_taylor.h
+/home/lastsean/CLionProjects/Masterproject/functions/b_1_taylor.h
+../functions/b_2_taylor.h
+/home/lastsean/CLionProjects/Masterproject/functions/b_2_taylor.h
+../functions/h_1.h
+/home/lastsean/CLionProjects/Masterproject/functions/h_1.h
+../functions/h_2.h
+/home/lastsean/CLionProjects/Masterproject/functions/h_2.h
+../functions/h_1_taylor.h
+/home/lastsean/CLionProjects/Masterproject/functions/h_1_taylor.h
+../functions/h_2_taylor.h
+/home/lastsean/CLionProjects/Masterproject/functions/h_2_taylor.h
+../functions/mytestfunc.h
+/home/lastsean/CLionProjects/Masterproject/functions/mytestfunc.h
 
 /usr/include/python3.10/Python.h
 patchlevel.h

@@ -6,53 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/lastsean/CLionProjects/Masterproject/functions/JR_1_1_taylor.cpp
-JR_1_1_taylor.h
-/home/lastsean/CLionProjects/Masterproject/functions/JR_1_1_taylor.h
+/home/lastsean/CLionProjects/Masterproject/functions/q_2_taylor.cpp
+q_2_taylor.h
+/home/lastsean/CLionProjects/Masterproject/functions/q_2_taylor.h
 limits
 /home/lastsean/CLionProjects/Masterproject/functions/limits
 cmath
 -
 
-/home/lastsean/CLionProjects/Masterproject/functions/JR_1_1_taylor.h
-
-/home/lastsean/CLionProjects/Masterproject/functions/JT_1_1_taylor.cpp
-JT_1_1_taylor.h
-/home/lastsean/CLionProjects/Masterproject/functions/JT_1_1_taylor.h
-limits
-/home/lastsean/CLionProjects/Masterproject/functions/limits
-cmath
--
-
-/home/lastsean/CLionProjects/Masterproject/functions/JT_1_1_taylor.h
-
-/home/lastsean/CLionProjects/Masterproject/functions/a_1_1_taylor.cpp
-a_1_1_taylor.h
-/home/lastsean/CLionProjects/Masterproject/functions/a_1_1_taylor.h
-limits
-/home/lastsean/CLionProjects/Masterproject/functions/limits
-cmath
--
-
-/home/lastsean/CLionProjects/Masterproject/functions/a_1_1_taylor.h
-
-/home/lastsean/CLionProjects/Masterproject/functions/alpha_1_1_taylor.cpp
-alpha_1_1_taylor.h
-/home/lastsean/CLionProjects/Masterproject/functions/alpha_1_1_taylor.h
-limits
-/home/lastsean/CLionProjects/Masterproject/functions/limits
-cmath
--
-
-/home/lastsean/CLionProjects/Masterproject/functions/alpha_1_1_taylor.h
-
-/home/lastsean/CLionProjects/Masterproject/functions/wcrl_1_1_taylor.cpp
-wcrl_1_1_taylor.h
-/home/lastsean/CLionProjects/Masterproject/functions/wcrl_1_1_taylor.h
-limits
-/home/lastsean/CLionProjects/Masterproject/functions/limits
-cmath
--
-
-/home/lastsean/CLionProjects/Masterproject/functions/wcrl_1_1_taylor.h
+/home/lastsean/CLionProjects/Masterproject/functions/q_2_taylor.h
 
