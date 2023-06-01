@@ -48,6 +48,48 @@ void call_test_function(const py::array_t<double>& state, const py::array_t<doub
     mytestfunction(len, ptr_state, ptr_result);
 }
 
+void system_ouput(
+        const py::array_t<double>& state,
+        const py::array_t<double>& z_mem,
+        const py::array_t<double>& f_s,
+        const py::array_t<double>& l_s,
+        const py::array_t<double>& r_s,
+        const py::array_t<double>& m_s,
+        const py::array_t<double>& E_s,
+        const py::array_t<double>& Jxx_s,
+        double gr,
+        double gl,
+        bool use_taylor
+        ){
+    py::buffer_info state_buf = state.request();
+    py::buffer_info z_buf = z_mem.request();
+    py::buffer_info f_buf = f_s.request();
+    py::buffer_info l_buf = l_s.request();
+    py::buffer_info r_buf = r_s.request();
+    py::buffer_info m_buf = m_s.request();
+    py::buffer_info E_buf = E_s.request();
+    py::buffer_info Jxx_buf = Jxx_s.request();
+
+    auto *ptr_state = (double *) state_buf.ptr;
+    auto *ptr_z = (double *) z_buf.ptr;
+    auto *ptr_f = (double *) f_buf.ptr;
+    auto *ptr_l = (double *) l_buf.ptr;
+    auto *ptr_r = (double *) r_buf.ptr;
+    auto *ptr_m = (double *) m_buf.ptr;
+    auto *ptr_E = (double *) E_buf.ptr;
+    auto *ptr_Jxx = (double *) Jxx_buf.ptr;
+
+    switch (int(state_buf.shape[0] / 4)) {
+        case 1:
+            (use_taylor) ? h_1_taylor(ptr_state, ptr_l[0], ptr_r[0], ptr_m[0], ptr_E[0], ptr_Jxx[0], gr, gl, ptr_f, ptr_z) : h_1(ptr_state, ptr_l[0], ptr_r[0], ptr_m[0], ptr_E[0], ptr_Jxx[0], gr, gl, ptr_f, ptr_z);
+            break;
+        case 2:
+            (use_taylor) ? h_2_taylor(ptr_state, ptr_l, ptr_r, ptr_m, ptr_E, ptr_Jxx, gr, gl, ptr_f, ptr_z) : h_2(ptr_state, ptr_l, ptr_r, ptr_m, ptr_E, ptr_Jxx, gr, gl, ptr_f, ptr_z);
+            break;
+    }
+
+}
+
 void solve_system(
 //        const py::array_t<double>& result,
         const py::array_t<double>& state,
@@ -301,6 +343,24 @@ PYBIND11_MODULE(motionlib, m) {
             - k_mem : memory for dynamic forces
             - q_mem : memory for applied forces
             - b_mem : memory for input forces
+            - z_mem : memory for output
+            - f_s : rope input forces
+            - l_s : array-like, lengths of segments
+            - r_s : array-like, radii of segments
+            - m_s : array-like, masses of segments
+            - E_s : array-like, Young's modulus of segments
+            - Jxx_s : array-like, second moment of inertia of segments
+            - g_r : bolt circle radius
+            - g_l : guide wholes length
+            - use_taylor: set true if use taylor approx around 0
+    )pbdoc");
+
+    m.def("output", &system_ouput, R"pbdoc(
+        get system output for current state
+
+        @params:
+            - result : array-like, object to store result in
+            - state : current state of soft robot
             - z_mem : memory for output
             - f_s : rope input forces
             - l_s : array-like, lengths of segments
